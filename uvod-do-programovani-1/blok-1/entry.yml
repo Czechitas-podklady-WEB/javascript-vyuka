@@ -3,3 +3,9 @@ lead: Proměnné, klíčová slova, alert, konzole, datové typy a operátory
 access: claim
 sections:
   - promenne
+  - klicova-slova
+  - alert
+  - konzole
+  - datove-typy
+  - operatory
+  - cviceni
