@@ -29,7 +29,7 @@ let pozdrav = (jmeno) => {
 
 pozdrav('Honza')
 
-let neciJmeno = 'Michal'
+let neciJmeno = 'Jarda'
 pozdrav(neciJmeno)
 ```
 
@@ -37,5 +37,5 @@ pozdrav(neciJmeno)
 
 ```text
 Ahoj Honza
-Ahoj Michal
+Ahoj Jarda
 ```

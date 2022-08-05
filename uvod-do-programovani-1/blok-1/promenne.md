@@ -2,7 +2,7 @@
 
 ```js
 let vek = 20
-let jmeno = 'Michal'
+let jmeno = 'Radek'
 let vyska = 1.75
 
 let vek
