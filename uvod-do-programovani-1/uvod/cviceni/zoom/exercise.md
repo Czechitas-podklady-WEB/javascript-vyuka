@@ -9,7 +9,7 @@ demand: 2
 
    1. Každá o sobě ostatním něco řekněte. Až budete na řadě, můžete třeba říct, jak se jmenujete a proč se chcete dozvědět o JavaScriptu/programování.
 
-   1. Vyzkoušejte ostatním sdílet svou obrazovku s otevřeným programem internetovým prohlížečem a otevřenou stránkou s materiály [kodim.cz](https://kodim.cz/).
+   1. Vyzkoušejte ostatním sdílet svou obrazovku s otevřeným internetovým prohlížečem a otevřenou stránkou s materiály [kodim.cz](https://kodim.cz/).
 
       Ideálně pro sdílení zvolte celou plochu (`Screen`), ať je vidět víc aplikací najednou a jak se v nich případně přepínáte. Sdílení celé obrazovky velmi usnadní koučům vám pomoc.
 
