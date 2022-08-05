@@ -10,6 +10,5 @@
 		<h1>Nadpis</h1>
 		<p>Odstavec textu</p>
 	</body>
-	<html></html>
 </html>
 ```
