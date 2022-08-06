@@ -2,8 +2,8 @@
 
 ```js
 let nahodneCislo = Math.random()
-Math.round(nahodneCislo)
+console.log(nahodneCislo)
 
 let desetinneCislo = 3.14
-Math.round(desetinneCislo)
+console.log(Math.round(desetinneCislo))
 ```
