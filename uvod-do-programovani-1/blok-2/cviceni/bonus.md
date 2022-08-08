@@ -3,7 +3,6 @@ title: Bonus
 demand: 2
 ---
 
-
 #### Kostka
 
 Vytvořte program, který vypíše text podle vzoru „**Hozeno na kostce: 5**“, s tím, že hozené číslo se bude generovat náhodně. Musíte vyřešit, jak z náhodného čísla v rozsahu `0` až `0.9999999` dostanete číslo `1` až `6`.
@@ -12,6 +11,6 @@ Vytvořte program, který vypíše text podle vzoru „**Hozeno na kostce: 5**�
 
 Vytvořte program na sčítání.
 
- 1.  Požádejte uživatele o první číslo výpisem jako je např. „Zadej první číslo:“, hodnotu uložte do proměnné.
- 1.  Podobně načtěte **druhé číslo**.
- 1.  Vypište uživateli výsledek ve formátu „**5 \* 8 = 40**“.
+1.  Požádejte uživatele o první číslo výpisem jako je např. „Zadej první číslo:“, hodnotu uložte do proměnné.
+1.  Podobně načtěte **druhé číslo**.
+1.  Vypište uživateli výsledek ve formátu „**5 \* 8 = 40**“.
