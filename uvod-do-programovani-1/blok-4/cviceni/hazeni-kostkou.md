@@ -15,3 +15,13 @@ Padlo číslo 3
 Padlo číslo 1
 Padlo číslo 6
 ```
+
+---solution
+
+```js
+let cisloNaKostce = 0
+while (cisloNaKostce !== 6) {
+	cisloNaKostce = Math.round(0.5 + Math.random() * 6)
+	console.log('Padlo číslo ' + cisloNaKostce)
+}
+```
