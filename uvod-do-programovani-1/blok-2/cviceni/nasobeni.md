@@ -9,7 +9,6 @@ Napište kód, který načte **číslo od uživatele**, **vynásobí ho dvěma**
 
 ```js
 let cisloOdUzivatele = Number(prompt('Zadej číslo'))
-
 let poVynasobeni = cisloOdUzivatele * 2
 
 console.log('Číslo vynásobené dvěma: ' + poVynasobeni)
