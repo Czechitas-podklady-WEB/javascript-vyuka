@@ -10,3 +10,11 @@ Pro jednotný formát podkladů je v repozitáři konfigurace pro Prettier, kter
 npm ci
 npm run fix
 ```
+
+## Nasazení na [kodim.cz](https://kodim.cz)
+
+Změny se nasadí automaticky po pushnutí do větve `deploy` například zadáním příkazu:
+
+```sh
+git push origin HEAD:deploy
+```
