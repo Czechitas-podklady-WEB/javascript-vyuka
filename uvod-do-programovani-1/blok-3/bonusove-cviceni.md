@@ -1,4 +1,4 @@
 ## Bonusové cvičení
 
-::exc[cviceni>opakovani]
+::exc[cviceni>koupani]
 ::exc[cviceni>zanorene-podminky]
