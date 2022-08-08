@@ -20,11 +20,8 @@ Vytvořte program na sčítání.
 #### Kostka
 
 ```js
-let cisloNaKostce = 0
-while (cisloNaKostce !== 6) {
-	cisloNaKostce = Math.round(0.5 + Math.random() * 6)
-	console.log('Hozeno na kostce: ' + cisloNaKostce)
-}
+let cisloNaKostce = Math.round(0.5 + Math.random() * 6)
+console.log('Hozeno na kostce: ' + cisloNaKostce)
 ```
 
 #### Sčítačka
