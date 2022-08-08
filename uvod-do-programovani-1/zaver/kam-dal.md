@@ -11,3 +11,4 @@
 
 - Jednodenní: [Úvod do HTML a CSS](https://www.czechitas.cz/kurzy/uvod-do-html-a-css)
 - Dlouhodobý: [HTML a CSS 1](https://www.czechitas.cz/kurzy/html-a-css-1)
+- Dlouhodobý: [Staň se kodérkou](https://www.czechitas.cz/kurzy/stan-se-koderkou)
