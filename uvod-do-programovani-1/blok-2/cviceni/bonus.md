@@ -13,4 +13,25 @@ Vytvořte program na sčítání.
 
 1.  Požádejte uživatele o první číslo výpisem jako je např. „Zadej první číslo:“, hodnotu uložte do proměnné.
 1.  Podobně načtěte **druhé číslo**.
-1.  Vypište uživateli výsledek ve formátu „**5 \* 8 = 40**“.
+1.  Vypište uživateli výsledek ve formátu „**5 + 8 = 13**“.
+
+---solution
+
+#### Kostka
+
+```js
+let cisloNaKostce = 0
+while (cisloNaKostce !== 6) {
+	cisloNaKostce = Math.round(0.5 + Math.random() * 6)
+	console.log('Hozeno na kostce: ' + cisloNaKostce)
+}
+```
+
+#### Sčítačka
+
+```js
+let prvni = Number(prompt('Zadej první číslo:'))
+let druhe = Number(prompt('Zadej druhé číslo:'))
+
+console.log(prvni + ' + ' + druhe + ' = ' + (prvni + druhe))
+```
