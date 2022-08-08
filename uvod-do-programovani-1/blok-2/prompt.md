@@ -3,7 +3,6 @@
 `prompt(zpráva, výchozí hodnota)`
 
 ```js
-prompt('Zadejte své jméno', 'Jan Novák')
 let jmeno = prompt('Zadejte své jméno', 'Jan Novák')
 ```
 
