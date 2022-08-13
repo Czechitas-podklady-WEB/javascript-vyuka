@@ -4,8 +4,8 @@
 let vek = 6
 
 if (vek < 18) {
-	console.log('Podmínka plátí')
+	console.log('Podmínka platí')
 } else {
-	console.log('Podmínka neplátí')
+	console.log('Podmínka neplatí')
 }
 ```
