@@ -1,4 +1,4 @@
-## Cykly
+## Cykly (smyčky)
 
 ::youtube{uid=2VPgCfwpTOQ}
 
