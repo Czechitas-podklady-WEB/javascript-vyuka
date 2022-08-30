@@ -3,7 +3,6 @@ lead: Naučíte se základy programování v jazyce JavaScript, který vám umo�
 lessons:
   - uvod-do-js
   - struktura-adresaru
-  - git
   - vstup-vystup-objekty
   - retezce-podminky
   - dom-innerhtml
@@ -13,3 +12,4 @@ lessons:
   - udalosti-formulare
   - chyby-pole
   - cykly
+  - zaverecny-projekt
