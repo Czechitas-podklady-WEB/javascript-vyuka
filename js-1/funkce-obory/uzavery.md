@@ -3,17 +3,17 @@
 Když JavaScript runtime vykonává blok kódu, po celou dobu si pamatuje všechny proměnné, které v něm byly vytvořeny. Jakmile vykonávání bloku skončí, všechny takto zapamatované proměnné se z paměti uvolní. Toto může představovat problém ve chvíli, kdy uvnitř nějakého bloku vytváříme vlastní funkci. Prohlédněte si následující kód, který požádá uživatele o počet vteřin a poté postupně odpočítává každou vteřinu směrem dolů.
 
 ```js
-const seconds = prompt('Zadejte cas:');
+const seconds = prompt('Zadejte cas:')
 
 if (seconds > 0) {
-  const timeElm = document.querySelector('#name');
+	const timeElm = document.querySelector('#name')
 
-  const countDown = () => {
-    seconds -= 1;
-    timeElm.textContent = seconds;
-  };
+	const countDown = () => {
+		seconds -= 1
+		timeElm.textContent = seconds
+	}
 
-  setInterval(countDown, 1000);
+	setInterval(countDown, 1000)
 }
 ```
 

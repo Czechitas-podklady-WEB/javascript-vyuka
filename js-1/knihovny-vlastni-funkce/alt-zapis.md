@@ -4,8 +4,8 @@ V různých výukových materiálech se můžete setkat s alternativním zápise
 
 ```js
 function colorHeading(colorName) {
-  const headingElm = document.querySelector('h1');
-  headingElm.style.color = colorName;
+	const headingElm = document.querySelector('h1')
+	headingElm.style.color = colorName
 }
 ```
 

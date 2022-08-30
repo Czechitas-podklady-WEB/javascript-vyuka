@@ -25,11 +25,11 @@ Zároveň ověřování e-mailu je tak častý programátorský úkon, že na to
 
 ```html
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Moje stránka</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Moje stránka</title>
 
-  <script src="https://unpkg.com/validator@latest/validator.min.js"></script>
+	<script src="https://unpkg.com/validator@latest/validator.min.js"></script>
 </head>
 ```
 
@@ -90,31 +90,31 @@ Knihovna `dayjs` toho umí opravdu hodně, například
 My si zde vyzkoušíme pouze pár základních věci. Aktuální datum a čas získáme zavoláním funkce `dayjs`.
 
 ```js
-const now = dayjs();
+const now = dayjs()
 ```
 
 Toto datum pak můžeme vypsat do konzole v námi zvoleném formátu.
 
 ```js
-console.log(now.format('MM.DD.YYYY'));
+console.log(now.format('MM.DD.YYYY'))
 ```
 
 Můžeme také zcela konkrétní datum vyrobit, například
 
 ```js
-const stedryDen = dayjs('2021-12-24');
+const stedryDen = dayjs('2021-12-24')
 ```
 
 Pomocí metody `isAfter` pak můžeme vyzkoušet, jestli už jsme propásli Štědrý den 2021 nebo nás teprve čeká.
 
 ```js
-const stedryDen = dayjs('2021-12-24');
-const dnes = dayjs();
+const stedryDen = dayjs('2021-12-24')
+const dnes = dayjs()
 
 if (dnes.isAfter(stedryDen)) {
-  console.log('Musíš počkat na příští rok');
+	console.log('Musíš počkat na příští rok')
 } else {
-  console.log('Už brzy přijde Ježíšek!');
+	console.log('Už brzy přijde Ježíšek!')
 }
 ```
 

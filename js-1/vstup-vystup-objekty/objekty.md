@@ -3,18 +3,18 @@
 Prozatím jsme v naších programech pracovali pouze s čísly a řetězci. V reálnějších programech však budeme potřebovat do naších proměných uložit více než pouze jednu informaci. Představte si například, že chceme evidovat doručovací adresu uživatele e-shopu. Každá adresa má ulici, číslo domu, město a PSČ. Takovou informaci bychom mohli zkusit nacpat do jednoho řetězce třeba takto.
 
 ```js
-const address = 'Pod Kaštany 31, 123 11 Horní Dlouhonosy';
+const address = 'Pod Kaštany 31, 123 11 Horní Dlouhonosy'
 ```
 
 Vysekat z takového řetězce jednotlivé údaje je ovšem dost pracné a našikovné. Pokud chceme informace lépe strukturovat, použijeme v JavaScriptu takzvané :term{cs="objekty" en="objects"}.
 
 ```js
 const address = {
-  streetName: 'Pod Kaštany',
-  number: 31,
-  city: 'Horní Dlouhonosy',
-  postalCode: '123 11',
-};
+	streetName: 'Pod Kaštany',
+	number: 31,
+	city: 'Horní Dlouhonosy',
+	postalCode: '123 11',
+}
 ```
 
 Objekt vytvoříme tak, že do složených závorek vložíme čárkou oddělené záznamy, kterým se říká :term{cs="vlastnosti" en="properties"}. Každá vlastnost sestává z takzvaného :term{cs="klíče" en="key"} a :term{cs="hodnoty" en="value"}.
@@ -36,11 +36,11 @@ Klíče v objektu se chovají podobně jako proměnné. Řídí se stejnými pra
 
 ```js
 const address = {
-  street_name: 'Pod Kaštany',
-  number: 31,
-  city: 'Horní Dlouhonosy',
-  postal_code: '123 11',
-};
+	street_name: 'Pod Kaštany',
+	number: 31,
+	city: 'Horní Dlouhonosy',
+	postal_code: '123 11',
+}
 ```
 
 Nelze však použít například klíče s pomlčkou.
@@ -58,11 +58,11 @@ Pokud trváme na tom, že v klíči chceme mít pomlčku nebo dokonce mezeru, m�
 
 ```js
 const address = {
-  'street name': 'Pod Kaštany',
-  number: 31,
-  city: 'Horní Dlouhonosy',
-  'postal-code': '123 11',
-};
+	'street name': 'Pod Kaštany',
+	number: 31,
+	city: 'Horní Dlouhonosy',
+	'postal-code': '123 11',
+}
 ```
 
 Potíž je v tom, že k takovým klíčům se už pomocí tečkové notace nedostaneme a musíme použít jiný zápis.
@@ -86,16 +86,16 @@ Všimněte si, že při vytváření objekt ukládáme do proměnné, jde tedy o
 
 ```js
 const user1 = {
-  fullName: 'Lubomír Větvička',
-  login: 'lubos',
-  address: {
-    streetName: 'Pod Kaštany',
-    number: 31,
-    city: 'Horní Dlouhonosy',
-    postalCode: '123 11',
-  },
-  cartItems: 0,
-};
+	fullName: 'Lubomír Větvička',
+	login: 'lubos',
+	address: {
+		streetName: 'Pod Kaštany',
+		number: 31,
+		city: 'Horní Dlouhonosy',
+		postalCode: '123 11',
+	},
+	cartItems: 0,
+}
 ```
 
 Kdybychom pak chtěli získat například město, kam máme objednané zboží doručit, opět použijeme tečkovou notaci.

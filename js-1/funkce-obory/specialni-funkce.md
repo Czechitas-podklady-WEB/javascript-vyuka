@@ -15,38 +15,38 @@ Představte si například funkci, jejíž úkolem je vypsat do stránky nějako
 
 ```js
 const showOrderSummary = (summary) => {
-  const summaryElm = document.querySelector('#summary');
-  summaryElm.innerHTML = `
+	const summaryElm = document.querySelector('#summary')
+	summaryElm.innerHTML = `
     <div class="summary__count">Celkem položek: ${summary.count}</div>
     <div class="summary__sum">Částka: ${summary.sum}</div>
-  `;
-};
+  `
+}
 ```
 
 K tomu, aby funkce splnila svůj úkol stačí, že do stránky vloží patřičný kus HTML. Už nemusí vracet žádnou hodnotu. JavaScript se však snaží být konzistentní a i takováto funkce tajně vrací hodnotu. Pokud sami nenapíšeme slovíčko `return`, JavaScript si jej sám doplní na konec funkce.
 
 ```js
 const showOrderSummary = (summary) => {
-  const summaryElm = document.querySelector('#summary');
-  summaryElm.innerHTML = `
+	const summaryElm = document.querySelector('#summary')
+	summaryElm.innerHTML = `
     <div class="summary__count">Celkem položek: ${summary.count}</div>
     <div class="summary__sum">Částka: ${summary.sum}</div>
-  `;
+  `
 
-  return undefined;
-};
+	return undefined
+}
 ```
 
 V JavaScriptu tedy každá funkce něco vrací. Pokud my sami z naší funkce nevrátíme žádnou hodnotu, JavaScript automaticky vrátí `undefined`. Proto můžeme klidně psát
 
 ```js
-const result = showOrderSummary({ count: 5, sum: 5270 });
+const result = showOrderSummary({ count: 5, sum: 5270 })
 ```
 
 V proměnné `result` pak po tomto příkazu bude uložena hodnota `undefined`. Vzhledem k tomu, že funkce `showOrderSummary` vrací `undefined` vždy, ukládat si její výsledek je zbytečné. Takovou funkci prostě zavoláme takto.
 
 ```js
-showOrderSummary({ count: 5, sum: 5270 });
+showOrderSummary({ count: 5, sum: 5270 })
 ```
 
 O její návratovou hodnotu se nestaráme, protože nám k ničemu není. Z této části si však můžeme odnést důležité poučení:
@@ -59,24 +59,24 @@ V praxi běžně narazíme také na funkce, které žádné parametry nemají. V
 
 ```js
 const roll = () => {
-  return Math.floor(Math.random() * 6) + 1;
-};
+	return Math.floor(Math.random() * 6) + 1
+}
 ```
 
 Tato funkce ke své činnosti žádné hodnoty z venku nepotřebuje, proto je bez parametrů. Další příklad může být funkce, který obarví nadpis stránky na červeno.
 
 ```js
 const colorHeadingRed = () => {
-  const headingElm = document.querySelector('h1');
-  headingElm.style.color = 'red';
-};
+	const headingElm = document.querySelector('h1')
+	headingElm.style.color = 'red'
+}
 ```
 
 Tato funkce parametry nemá, protože ke své činnosti opět nepotřebuje žádné informace z venku. Mohli bychom však také chtít funkci, která obarví nadpis námi zvolenou barvou. V takovém případě funkci přidáme jeden parametr.
 
 ```js
 const colorHeading = (colorName) => {
-  const headingElm = document.querySelector('h1');
-  headingElm.style.color = colorName;
-};
+	const headingElm = document.querySelector('h1')
+	headingElm.style.color = colorName
+}
 ```

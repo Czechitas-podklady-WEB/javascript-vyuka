@@ -4,13 +4,13 @@ Když prohlížeč zpracovává HTML kód, každá značka a její obsah se pře
 
 ```html
 <body>
-  <div class="header">Hlavička</div>
-  <div class="cards">
-    <div class="card">Karta 1</div>
-    <div class="card">Karta 2</div>
-    <div class="card">Karta 3</div>
-  </div>
-  <div class="footer">Patička</div>
+	<div class="header">Hlavička</div>
+	<div class="cards">
+		<div class="card">Karta 1</div>
+		<div class="card">Karta 2</div>
+		<div class="card">Karta 3</div>
+	</div>
+	<div class="footer">Patička</div>
 </body>
 ```
 
@@ -104,9 +104,9 @@ Podobně jako obsah, třídy nebo styly můžeme měnit i atributy elementů. Ne
 Pomocí JavaScriptu obrázek snadno změníme takto.
 
 ```js
-const petElement = document.querySelector('.pet');
-petElement.src = 'img/dog.jpg';
-petElement.alt = 'Pejsek';
+const petElement = document.querySelector('.pet')
+petElement.src = 'img/dog.jpg'
+petElement.alt = 'Pejsek'
 ```
 
 Vidíte, že díky DOMu si můžeme se stránkou hrát zcela dle libosti. Možná se vám už v hlavně rodí odvážné a nadšené nápady jaké úžasné stránky by se daly tatko vyrobit. Vraťme se však na chvilinku ještě k selektorům.
@@ -117,52 +117,52 @@ Vybírat prvky na stránce pomocí CSS tříd se občas velmi hodí. Jindy nás 
 
 ```html
 <body>
-  <div class="header">Hlavička</div>
-  <div class="cards">
-    <div class="card">Karta 1</div>
-    <div class="card">Karta 2</div>
-    <div class="card">Karta 3</div>
-  </div>
-  <div class="footer">Patička</div>
+	<div class="header">Hlavička</div>
+	<div class="cards">
+		<div class="card">Karta 1</div>
+		<div class="card">Karta 2</div>
+		<div class="card">Karta 3</div>
+	</div>
+	<div class="footer">Patička</div>
 </body>
 ```
 
 Funkce `document.querySelector` vždy vrátí **první** prvek, který na stránce najde. Pokud se chceme dostat například ke druhé kartě, pomocí selectoru `.card` to nepůjde. Takto získáme pouze kartu první.
 
 ```js
-const cardElm = document.querySelector('.card');
+const cardElm = document.querySelector('.card')
 ```
 
 Jelikož lze v `document.querySelector` použít libovolný CSS selektor, někoho by mohla napadnout například takováhle frajeřinka.
 
 ```js
-const cardElm = document.querySelector('.card:nth-child(2)');
+const cardElm = document.querySelector('.card:nth-child(2)')
 ```
 
 Tento kód bude skutečně fungovat, ale rovnou zde na místě vám takové triky navždy zakazuju. Takovéto komplikované selektory používejte pouze v případě, že opravdu není vyhnutí. Pro nás existuje jednodušší řešení a to dát každé kartě unikátní `id`.
 
 ```html
 <body>
-  <div class="header">Hlavička</div>
-  <div class="cards">
-    <div id="card1" class="card">Karta 1</div>
-    <div id="card2" class="card">Karta 2</div>
-    <div id="card3" class="card">Karta 3</div>
-  </div>
-  <div class="footer">Patička</div>
+	<div class="header">Hlavička</div>
+	<div class="cards">
+		<div id="card1" class="card">Karta 1</div>
+		<div id="card2" class="card">Karta 2</div>
+		<div id="card3" class="card">Karta 3</div>
+	</div>
+	<div class="footer">Patička</div>
 </body>
 ```
 
 Pak se ke druhé kartě snadno dostaneme takto.
 
 ```js
-const cardElm = document.querySelector('#card2');
+const cardElm = document.querySelector('#card2')
 ```
 
 Používání `id` je vůbec ten nejvychovanější způsob, jak ze stránky něco vybírat, protože je ihned vidět, který prvek máme na mysli, a nemusíme řešit žádné CSS hádanky. Dokonce je to tak vychovaný a běžný způsob, že JavaScript poskytuje speciální funkci `document.getElementById`, která vybírá na základě `id`. Kód výše by šel tedy napsat i takto.
 
 ```js
-const cardElm = document.getElementById('card2');
+const cardElm = document.getElementById('card2')
 ```
 
 Všimněte si, že zde nepíšeme znak mřížky, protože vstupem pro `document.getElementById` není CSS selektor, nýbrž samotné `id` prvku.

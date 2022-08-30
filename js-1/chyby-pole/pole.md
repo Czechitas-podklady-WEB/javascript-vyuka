@@ -158,30 +158,30 @@ Pole v programování potkáme na každém kroku. Můžeme je například použ�
 
 ```js
 const expenses = [
-  ['Petr', 'Prací prášek', 240],
-  ['Ondra', 'Savo', 80],
-  ['Pavla', 'Toaleťák', 65],
-  ['Zuzka', 'Mýdlo', 50],
-  ['Pavla', 'Závěs do koupelny', 350],
-  ['Libor', 'Pivka na kolaudačku', 124],
-  ['Petr', 'Pytle na odpadky', 75],
-  ['Míša', 'Utěrky na nádobí', 130],
-  ['Ondra', 'Toaleťák', 120],
-  ['Míša', 'Pečící papír', 30],
-  ['Zuzka', 'Savo', 80],
-  ['Petr', 'Tapeta na záchod', 315],
-  ['Ondra', 'Toaleťák', 64],
-];
+	['Petr', 'Prací prášek', 240],
+	['Ondra', 'Savo', 80],
+	['Pavla', 'Toaleťák', 65],
+	['Zuzka', 'Mýdlo', 50],
+	['Pavla', 'Závěs do koupelny', 350],
+	['Libor', 'Pivka na kolaudačku', 124],
+	['Petr', 'Pytle na odpadky', 75],
+	['Míša', 'Utěrky na nádobí', 130],
+	['Ondra', 'Toaleťák', 120],
+	['Míša', 'Pečící papír', 30],
+	['Zuzka', 'Savo', 80],
+	['Petr', 'Tapeta na záchod', 315],
+	['Ondra', 'Toaleťák', 64],
+]
 ```
 
 Pomocí pole polí můžeme také reprezentovat herní plány v různých počítačovách hrách. Takto například mohou vypadat rozehrané piškvorky 3x3.
 
 ```js
 const tictactoe = [
-  ['o', ' ', ' '],
-  [' ', 'x', ' '],
-  [' ', 'o', 'x'],
-];
+	['o', ' ', ' '],
+	[' ', 'x', ' '],
+	[' ', 'o', 'x'],
+]
 ```
 
 Vidíme, že na tahu je zrovna křížek. Můžeme tak snadno provést nějaký chytrý tah.

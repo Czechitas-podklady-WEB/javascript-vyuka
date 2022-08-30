@@ -7,7 +7,7 @@ Jedním z hlavních způsobů, jak si ušetřit mnohé frustrace a mlácení hla
 Mějme například následující kousek kódu.
 
 ```js
-const input = prompt('Username:');
+const input = prompt('Username:')
 ```
 
 Tento úryvek můžeme po technické stránkce rozebrat takto.
@@ -28,8 +28,8 @@ Zkusme nyní malinko složitější úryvek.
 
 ```js
 const setColor = (element, color) => {
-  element.style.color = color;
-};
+	element.style.color = color
+}
 ```
 
 Technický rozbor by mohl vypadat takto.

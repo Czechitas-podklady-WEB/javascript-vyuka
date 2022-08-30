@@ -19,9 +19,9 @@ Každý formulář by měl mít odesílací tlačítko `button`, kterým uživat
 
 ```html
 <form id="registration">
-  <h1>Přihláška na kurz</h1>
-  <input id="firstName" type="text" />
-  <button type="submit">Přihlásit</button>
+	<h1>Přihláška na kurz</h1>
+	<input id="firstName" type="text" />
+	<button type="submit">Přihlásit</button>
 </form>
 ```
 
@@ -32,27 +32,27 @@ Každý formulář by měl mít odesílací tlačítko `button`, kterým uživat
 Příležitost získat data z formuláře máme ve chvili, kdy uživatel formulář odešle pomocí tlačítka nebo stiskne klávesu :kbd[Enter] uvnitř textového pole. Tuto akci zachytíme pomocí události `submit`, kterou vyhazuje samotný formulář.
 
 ```js
-const formElm = document.querySelector('#registration');
+const formElm = document.querySelector('#registration')
 formElm.addEventListener('submit', () => {
-  alert('Jste přihlášeni');
-});
+	alert('Jste přihlášeni')
+})
 ```
 
 Pokud chceme získat text, který uživatel do políčka vepsal, stačí nám toto políčko vybrat pomocí `querySelector` a použít vlastnost `value`.
 
 ```js
-const formElm = document.querySelector('#registration');
+const formElm = document.querySelector('#registration')
 formElm.addEventListener('submit', () => {
-  const firstNameInput = document.querySelector('#firstName');
-  const firstName = firstNameInput.value;
-  alert(`${firstName}, jste přihlášeni`);
-});
+	const firstNameInput = document.querySelector('#firstName')
+	const firstName = firstNameInput.value
+	alert(`${firstName}, jste přihlášeni`)
+})
 ```
 
 Stejně jako u funkce `prompt` i zde platí, že vlastnost `value` je vždy řetězec. Je tedy opět nutné mít se na pozoru, chceme-li od uživatele například číslo, a provést nezbytnou konverzi.
 
 ```js
-const number = Number(inputElm.value);
+const number = Number(inputElm.value)
 ```
 
 Všimněte si však prazvláštní věci. Pokaždé, když formulář odešleme, obnoví se najednou celá stránka. To se děje proto, že HTML formuláře jsou původně určené k odesílání dat na server. Vždy, když formulář potvrdíme, prohlížeč automaticky pošle data z formuláře na server ze kterého obdržel naši stránku. Poté čeká, co server vrátí jako odpověď. Náš jednoduchý lokální servřík však umí odesílat jen a pouze naši stránku. Prohlížeč tak jako odpověd na odeslání formuláře obdrží znova tu samou stránku, na které zrovna je. Proto se naše stránka v prohlížeči obnoví.
@@ -60,13 +60,13 @@ Všimněte si však prazvláštní věci. Pokaždé, když formulář odešleme,
 My v celém tomto kurzu automatické odesílání formulářů na server používat nebudeme, protože bychom kvůli tomu museli programovat celý vlastní server. Formulářová data budeme zatím zpracovávat přímo na frontendu. Musíme tedy prohlížeči říct, aby formuláře nikam neposílal. K tomu použijeme metodu `preventDefault`.
 
 ```js
-const formElm = document.querySelector('#registration');
+const formElm = document.querySelector('#registration')
 formElm.addEventListener('submit', (event) => {
-  event.preventDefault();
-  const firstNameInput = document.querySelector('#firstName');
-  const firstName = firstNameInput.value;
-  alert(`${firstName}, jste přihlášeni`);
-});
+	event.preventDefault()
+	const firstNameInput = document.querySelector('#firstName')
+	const firstName = firstNameInput.value
+	alert(`${firstName}, jste přihlášeni`)
+})
 ```
 
 Po této úpravě se už stránka nebude obnovat.

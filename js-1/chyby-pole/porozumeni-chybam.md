@@ -12,26 +12,26 @@ V následující částí si probereme nejčastější chyby, na které jako za�
 
 ```js
 const user = {
-  email: 'bartolomej.rozumbrada@gmail.com',
-  password: 'vimzenicnevim',
-  name: 'Bartoloměj',
-};
+	email: 'bartolomej.rozumbrada@gmail.com',
+	password: 'vimzenicnevim',
+	name: 'Bartoloměj',
+}
 
 const handleSubmit = (event) => {
-  event.preventDefault();
+	event.preventDefault()
 
-  const emailInput = document.querySelektor('.email-input');
-  const passwordInput = document.querySelector('#password-input');
-  const container = document.querySelector('.container');
+	const emailInput = document.querySelektor('.email-input')
+	const passwordInput = document.querySelector('#password-input')
+	const container = document.querySelector('.container')
 
-  if (enailInput.value === user.email && passwordInput.value === user.pasword) {
-    container.innerHTML = `<h1>Přihlášený uživatel: ${name}</h1>`;
-  } else {
-    container.innerHTML = '<h1>Neplatné přihlašovací údaje</h1>';
-  }
-};
+	if (enailInput.value === user.email && passwordInput.value === user.pasword) {
+		container.innerHTML = `<h1>Přihlášený uživatel: ${name}</h1>`
+	} else {
+		container.innerHTML = '<h1>Neplatné přihlašovací údaje</h1>'
+	}
+}
 
-document.querySelector('#login-form').addEventListener('submit', handleSubmit);
+document.querySelector('#login-form').addEventListener('submit', handleSubmit)
 ```
 
 Při pokusu o kliknutí na tlačítko _Přihlásit_ obdržíme tuto chybovou hlášku
@@ -60,18 +60,18 @@ Opravíme tedy název funkce a radujeme se, že už bude vše v pořádku.
 
 ```js
 const handleSubmit = (event) => {
-  event.preventDefault();
+	event.preventDefault()
 
-  const emailInput = document.querySelector('.email-input');
-  const passwordInput = document.querySelector('#password-input');
-  const container = document.querySelector('.container');
+	const emailInput = document.querySelector('.email-input')
+	const passwordInput = document.querySelector('#password-input')
+	const container = document.querySelector('.container')
 
-  if (enailInput.value === user.email && passwordInput.value === user.pasword) {
-    container.innerHTML = `<h1>Přihlášený uživatel: ${name}</h1>`;
-  } else {
-    container.innerHTML = '<h1>Neplatné přihlašovací údaje</h1>';
-  }
-};
+	if (enailInput.value === user.email && passwordInput.value === user.pasword) {
+		container.innerHTML = `<h1>Přihlášený uživatel: ${name}</h1>`
+	} else {
+		container.innerHTML = '<h1>Neplatné přihlašovací údaje</h1>'
+	}
+}
 ```
 
 Do očí nás však uhodí další chyba.
@@ -85,18 +85,18 @@ JavaScript runtime si tentokrát stěžuje, že proměnná `enailInput` není de
 
 ```js
 const handleSubmit = (event) => {
-  event.preventDefault();
+	event.preventDefault()
 
-  const emailInput = document.querySelector('.email-input');
-  const passwordInput = document.querySelector('#password-input');
-  const container = document.querySelector('.container');
+	const emailInput = document.querySelector('.email-input')
+	const passwordInput = document.querySelector('#password-input')
+	const container = document.querySelector('.container')
 
-  if (emailInput.value === user.email && passwordInput.value === user.pasword) {
-    container.innerHTML = `<h1>Přihlášený uživatel: ${name}</h1>`;
-  } else {
-    container.innerHTML = '<h1>Neplatné přihlašovací údaje</h1>';
-  }
-};
+	if (emailInput.value === user.email && passwordInput.value === user.pasword) {
+		container.innerHTML = `<h1>Přihlášený uživatel: ${name}</h1>`
+	} else {
+		container.innerHTML = '<h1>Neplatné přihlašovací údaje</h1>'
+	}
+}
 ```
 
 Při spuštění stránky nás ovšem vytrestá hláška:

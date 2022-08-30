@@ -4,21 +4,21 @@ Předchozí příklad byl malinko strojený a trošku přitažený za vlasy, aby
 
 ```js
 const calc = (num1, op, num2) => {
-  if (op === '+') {
-    return num1 + num2;
-  }
-  if (op === '-') {
-    return num1 - num2;
-  }
-  if (op === '*') {
-    return num1 * num2;
-  }
-  if (op === '/') {
-    return num1 / num2;
-  }
+	if (op === '+') {
+		return num1 + num2
+	}
+	if (op === '-') {
+		return num1 - num2
+	}
+	if (op === '*') {
+		return num1 * num2
+	}
+	if (op === '/') {
+		return num1 / num2
+	}
 
-  return null;
-};
+	return null
+}
 ```
 
 Možná si říkáte, jestli by tato funkce nešla napsat nějak šikovněji a úsporněji. Například zkusit předat funkci operaci tak nějak přímo a naše funkce by ji jen vykonala. Něco ve stylu
@@ -32,28 +32,28 @@ Pokud přemýšlíte tímto směrem, jste na správné stopě. Jen na to musíme
 
 ```js
 const plus = (num1, num2) => {
-  return num1 + num2;
-};
+	return num1 + num2
+}
 
 const minus = (num1, num2) => {
-  return num1 - num2;
-};
+	return num1 - num2
+}
 
 const times = (num1, num2) => {
-  return num1 * num2;
-};
+	return num1 * num2
+}
 
 const divide = (num1, num2) => {
-  return num1 / num2;
-};
+	return num1 / num2
+}
 ```
 
 Jelikož každá takováto funkce je hodnota, můžeme ji předat jako vstup do funkce `calc`. Ta pak obdrženou funkci pouze zavolá.
 
 ```js
 const calc = (num1, op, num2) => {
-  return op(num1, num2);
-};
+	return op(num1, num2)
+}
 ```
 
 Funkci `calc` pak použijeme velmi přímočaře.

@@ -8,41 +8,41 @@ Přečtěte si následující úryvky kódu a u každého řekněte, co program 
 **Úryvek 1:**
 
 ```js
-const name = 'Mississippi';
+const name = 'Mississippi'
 
 if (name.length > 5) {
-  const name = 'Missi';
-  document.body.innerHTML = `<p>${name}</p>`;
+	const name = 'Missi'
+	document.body.innerHTML = `<p>${name}</p>`
 }
 
-document.body.innerHTML = `<p>${name}</p>`;
+document.body.innerHTML = `<p>${name}</p>`
 ```
 
 **Úryvek 2:**
 
 ```js
-const name = 'Franta';
+const name = 'Franta'
 
 const greet = (name) => {
-  const name = 'Pepa';
-  document.body.innerHTML = `<p>${name}</p>`;
-};
+	const name = 'Pepa'
+	document.body.innerHTML = `<p>${name}</p>`
+}
 
-greet('Jožin');
+greet('Jožin')
 ```
 
 **Úryvek 3:**
 
 ```js
-const age = 25;
+const age = 25
 
 if (age > 21) {
-  const price = 100;
+	const price = 100
 } else if (age > 15) {
-  const price = 50;
+	const price = 50
 } else {
-  const price = 0;
+	const price = 0
 }
 
-document.body.innerHTML = `<p>${price}</p>`;
+document.body.innerHTML = `<p>${price}</p>`
 ```

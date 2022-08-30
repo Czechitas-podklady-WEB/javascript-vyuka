@@ -4,20 +4,20 @@ Jak už bylo řečeno, událostí je mnoho typů a mohou nastat na různých ele
 
 ```js
 const handleClick = () => {
-  document.body.innerHTML += '<p>klik!</p>';
-};
+	document.body.innerHTML += '<p>klik!</p>'
+}
 
-document.addEventListener('click', handleClick);
+document.addEventListener('click', handleClick)
 ```
 
 Takto přidáme posluchače události k celé naší stránce. Na celé stránce také můžeme použít událost `scroll`, která nastave pokaždé, když uživatel na stránce zascrolluje.
 
 ```js
 const handleScroll = () => {
-  document.body.innerHTML += '<p>skrol!</p>';
-};
+	document.body.innerHTML += '<p>skrol!</p>'
+}
 
-document.addEventListener('scroll', handleScroll);
+document.addEventListener('scroll', handleScroll)
 ```
 
 Často se nám také mohou hodit události `keydown` a `keyup`. Událost `keydown` nastane, když uživatel stiskne nějakou klávesu. Událost `keyup` nastane, když uživatel klávesu uvolní. To je velmi šikovné, protože pokud uživatel drží zmáčknutou nějakou klávesu, událost `keydown` nám bude chodit pořád dokola. Naopak událost `keyup` přijde vždy pouze jednou ve chvíli, kdy uživatel klávesu uvolní.

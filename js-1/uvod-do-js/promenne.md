@@ -5,9 +5,9 @@ Při složitějších operacích a výpočtech často vyvstane potřeba si něja
 Mějme čas v hodinách zadaný ve 24-hodinovém formátu. Tři hodiny odpoledne tedy píšeme jako 15h. Nyní chceme spočítat, kolik hodin uvidíme na hodinách po uplynutí zadané doby. Například jaký bude čas po uplynutí 15 hodin?
 
 ```js
-const cas = 13;
-const novyCas = (cas + 15) % 24;
-document.body.innerHTML = novyCas;
+const cas = 13
+const novyCas = (cas + 15) % 24
+document.body.innerHTML = novyCas
 ```
 
 V tomto kusu kódu jsme vytvořili hned dvě proměnné: :var[cas] a :var[novyCas]. Každá proměnná v JavaScriptu musí mít své jméno. To by mělo dobře vystihovat, co je v proměnné uloženo. Pokud chceme v programu používat nějakou proměnnou, musíme ji vždy nejdříve vytvořit. To se dělá pomocí klíčového slova `const`. Takovou proměnnou pak můžeme použít v libovolném výrazu tak, že prostě uvedeme její jméno.
@@ -19,18 +19,18 @@ Většinu proměnných budeme používat tak, že jim při vytvoření přiřad�
 Takto můžeme například zkusit spočítat svou budoucí výplatu, pokud budeme pracovat na plný úvazek 21 dní v měsíci za 500 Kč na hodinu.
 
 ```js
-let sazba = 500;
-let vyplata = 8 * 21 * sazba;
-document.body.innerHTML = vyplata;
+let sazba = 500
+let vyplata = 8 * 21 * sazba
+document.body.innerHTML = vyplata
 ```
 
 Pokud chceme spočítat výplatu pro jinou sazbu, můžeme hodnotu v proměnné změnit. V takovém případě už **nepoužíváme** `const` ani `let`.
 
 ```js
-let sazba = 500;
-let vyplata = 8 * 21 * sazba;
-sazba = 600;
-document.body.innerHTML = vyplata;
+let sazba = 500
+let vyplata = 8 * 21 * sazba
+sazba = 600
+document.body.innerHTML = vyplata
 ```
 
 Zde si však musíme všimnout jedné velmi důležité věci.
@@ -40,13 +40,13 @@ Zde si však musíme všimnout jedné velmi důležité věci.
 Dejte pozor na to, že do proměnné se jako do šuplíku ukládá pouze hodnota a nikoliv celý výraz. Všimněte si, že v příkladu výše jsem změnili hodnotu proměnné :var[sazba]. Po této změně bude v proměnné :var[vyplata] pořád původní hodnota. Pokud chceme obsah této proměnné aktualizovat, musíme příkaz spustit znova.
 
 ```js
-let sazba = 500;
-let vyplata = 8 * 21 * sazba;
-document.body.innerHTML = vyplata;
+let sazba = 500
+let vyplata = 8 * 21 * sazba
+document.body.innerHTML = vyplata
 
-sazba = 600;
-vyplata = 8 * 21 * sazba;
-document.body.innerHTML = vyplata;
+sazba = 600
+vyplata = 8 * 21 * sazba
+document.body.innerHTML = vyplata
 ```
 
 ### Změna na základě předchozí hodnoty
@@ -54,47 +54,47 @@ document.body.innerHTML = vyplata;
 Často se nám stane, že novou hodnotu v proměnné chceme zkonstruovat na základě předchozí hodnoty. Například můžeme chtít hodinovou sazbu navýšit o sto korun.
 
 ```js
-sazba = sazba + 100;
-vyplata = 8 * 21 * sazba;
-document.body.innerHTML = vyplata;
+sazba = sazba + 100
+vyplata = 8 * 21 * sazba
+document.body.innerHTML = vyplata
 ```
 
 Nebo ji můžeme chtít navýšit třeba o 15 %.
 
 ```js
-sazba = sazba * 1.15;
-vyplata = 8 * 21 * sazba;
-document.body.innerHTML = vyplata;
+sazba = sazba * 1.15
+vyplata = 8 * 21 * sazba
+document.body.innerHTML = vyplata
 ```
 
 Tyto případy jsou tak časté, že pro ně JavaScript zavedl speciální operátory. Místo
 
 ```js
-sazba = sazba + 100;
+sazba = sazba + 100
 ```
 
 můžeme psát
 
 ```js
-sazba += 100;
+sazba += 100
 ```
 
 Místo
 
 ```js
-sazba = sazba * 1.15;
+sazba = sazba * 1.15
 ```
 
 píšeme
 
 ```js
-sazba *= 1.15;
+sazba *= 1.15
 ```
 
 Tyto operátory se nám budou hodit také u řetězců. Takto například můžeme k uživatelskému jménu přidat e-mailovou doménu.
 
 ```js
-let email = 'alzbeta.zelena';
-email += '@gmail.com';
-document.body.innerHTML = email;
+let email = 'alzbeta.zelena'
+email += '@gmail.com'
+document.body.innerHTML = email
 ```

@@ -25,8 +25,8 @@ Postupujte dle následujících kroků.
 1. Ve získaných informací vytvořte objekt, který bude vypadat například takto:
    ```js
    const parsedEmail = {
-     userName: 'slavomir.ponuchalek',
-     domain: 'yahoo.com',
-   };
+   	userName: 'slavomir.ponuchalek',
+   	domain: 'yahoo.com',
+   }
    ```
 1. Pro kontrolu vypište tento objekt do stránky. Každou hodnotu vypište jako odstavec.

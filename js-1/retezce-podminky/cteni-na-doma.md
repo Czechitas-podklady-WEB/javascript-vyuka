@@ -48,7 +48,7 @@ Tyto logické operátory můžeme s výhodou využít v našich podmínkách. Na
 
 ```js
 if (age >= 15 && age <= 18) {
-  document.body.innerHTML = '<p>Jsi mladistvým intelektuálem</p>';
+	document.body.innerHTML = '<p>Jsi mladistvým intelektuálem</p>'
 }
 ```
 

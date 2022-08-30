@@ -16,12 +16,12 @@ Vyjděte z řešení předchozího příkladu, kdy se objednává při kliknutí
 ```
 
 ```js
-const button = document.querySelector('#btn-order');
+const button = document.querySelector('#btn-order')
 setTimeout(() => {
-  button.textContent = 'Objednat';
-  button.disabled = false;
-}, 8000);
+	button.textContent = 'Objednat'
+	button.disabled = false
+}, 8000)
 button.addEventListener('click', () => {
-  button.textContent = 'Objednáno';
-});
+	button.textContent = 'Objednáno'
+})
 ```

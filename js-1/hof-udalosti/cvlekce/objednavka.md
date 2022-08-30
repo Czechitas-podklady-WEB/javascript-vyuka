@@ -19,9 +19,9 @@ Vytvoříme jednoduchou stránku s objednávacím tlačítkem.
 ---solution
 
 ```js
-const button = document.querySelector('#btn-order');
+const button = document.querySelector('#btn-order')
 button.addEventListener('click', () => {
-  // document.body.innerHTML += '<p>Objednáno</p>';
-  button.textContent = 'Objednáno';
-});
+	// document.body.innerHTML += '<p>Objednáno</p>';
+	button.textContent = 'Objednáno'
+})
 ```

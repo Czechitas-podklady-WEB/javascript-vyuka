@@ -9,10 +9,10 @@ Vytvořte klasický přihlašovací formulář, do kterého uživatel zadá svů
 1. Na začátek souboru `index.js` vložte následující objekt představující jednoho uživatele. Budeme se tvářit, že jsme jej získali například z databáze.
    ```js
    const user = {
-     email: 'bartolomej.rozumbrada@gmail.com',
-     password: 'vimzenicnevim',
-     name: 'Bartoloměj',
-   };
+   	email: 'bartolomej.rozumbrada@gmail.com',
+   	password: 'vimzenicnevim',
+   	name: 'Bartoloměj',
+   }
    ```
 1. Při kliknutí na tlačítko „Přihlásit“ ověřte, že uživatel zadal správné jméno a heslo. Pokud údaje souhlasí, nahraďte formulář na stránce nějakou zprávou, například „Přihlášený uživatel: Bartoloměj“.
 1. Pokud uživatel zadal špatný e-mail nebo heslo, zobrazte ve formuláři výraznou zprávu „Neplatné přihlašovací údaje“. Zadaný e-mail nechte v políčku vyplněný. Vyplněné heslo naopak vymažte.
@@ -25,16 +25,16 @@ Obsah `body` v souboru `index.html`:
 
 ```html
 <div class="container">
-  <form id="login-form">
-    <h2 id="status"></h2>
-    <label class="field">E-mail: <input id="email-input" type="email" /></label>
-    <label class="field"
-      >Password: <input id="password-input" type="password"
-    /></label>
-    <div class="controls">
-      <button type="submit">Přihlásit</button>
-    </div>
-  </form>
+	<form id="login-form">
+		<h2 id="status"></h2>
+		<label class="field">E-mail: <input id="email-input" type="email" /></label>
+		<label class="field"
+			>Password: <input id="password-input" type="password"
+		/></label>
+		<div class="controls">
+			<button type="submit">Přihlásit</button>
+		</div>
+	</form>
 </div>
 ```
 
@@ -42,27 +42,27 @@ Obsah souboru `index.js`:
 
 ```js
 const user = {
-  email: 'bartolomej.rozumbrada@gmail.com',
-  password: 'vimzenicnevim',
-  name: 'Bartoloměj',
-};
+	email: 'bartolomej.rozumbrada@gmail.com',
+	password: 'vimzenicnevim',
+	name: 'Bartoloměj',
+}
 
 document.querySelector('#login-form').addEventListener('submit', (e) => {
-  e.preventDefault();
+	e.preventDefault()
 
-  const emailInput = document.querySelector('#email-input');
-  const passwordInput = document.querySelector('#password-input');
-  const container = document.querySelector('.container');
-  const status = document.querySelector('#status');
+	const emailInput = document.querySelector('#email-input')
+	const passwordInput = document.querySelector('#password-input')
+	const container = document.querySelector('.container')
+	const status = document.querySelector('#status')
 
-  if (
-    emailInput.value === user.email &&
-    passwordInput.value === user.password
-  ) {
-    container.innerHTML = `<h1>Přihlášený uživatel: ${user.name}</h1>`;
-  } else {
-    status.textContent = 'Neplatné přihlašovací údaje';
-    passwordInput.value = '';
-  }
-});
+	if (
+		emailInput.value === user.email &&
+		passwordInput.value === user.password
+	) {
+		container.innerHTML = `<h1>Přihlášený uživatel: ${user.name}</h1>`
+	} else {
+		status.textContent = 'Neplatné přihlašovací údaje'
+		passwordInput.value = ''
+	}
+})
 ```

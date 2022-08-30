@@ -6,28 +6,28 @@ Jedna ze situací, kdy se nám velmi hodí funkce vyššího řádu, je chvíle,
 
 ```js
 const timeIsUp = () => {
-  document.body.innerHTML += '<p>Čas vypršel</p>';
-};
+	document.body.innerHTML += '<p>Čas vypršel</p>'
+}
 ```
 
 Tuto funkci chceme spustit pět vteřin poté, co se otevře naše stránka. K takovému účelu JavaScript poskytuje funkci `setTimeout`. Ta jako svůj vstup bere funkci a počet milisekund, které mají uplynout před tím, než se tato funkce zavolá. Použití tak vypadá následovně.
 
 ```js
-setTimeout(timeIsUp, 5000);
+setTimeout(timeIsUp, 5000)
 ```
 
 Všimněte si, že `setTimeout` je funkce vyššího řádu, neboť bere jako svůj první vstup funkci. Opět vidíme, že funkci `timeIsUp` nevoláme my, ale zavolá ji až JavaScript runtime po uplynutí 5000 milisekund. Celý program pak vypadá takto.
 
 ```js
 const timeIsUp = () => {
-  document.body.innerHTML += '<p>Čas vypršel</p>';
-};
+	document.body.innerHTML += '<p>Čas vypršel</p>'
+}
 
-setTimeout(timeIsUp, 5000);
+setTimeout(timeIsUp, 5000)
 ```
 
 Pokud chceme, aby se nějaká funkce volala opakovaně, například každých pět vteřín, stačí místo `setTimeout` použít `setInterval`.
 
 ```js
-setInterval(timeIsUp, 5000);
+setInterval(timeIsUp, 5000)
 ```

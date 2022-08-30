@@ -16,16 +16,16 @@ Založte JavaScriptový program a vytvořte v něm pole, které bude reprezentav
 ```js
 // sachovnice
 const sachovnice = [
-  [0, 0, 0, 0, 0, -4, -6, 0],
-  [0, 0, 0, 0, 0, -1, -1, -1],
-  [0, 0, -1, 0, 0, 0, 0, 0],
-  [0, -1, 1, 0, -1, 0, 0, 0],
-  [0, 1, 0, 0, 1, 0, 0, 0],
-  [0, 0, 0, 0, 0, 3, 0, 1],
-  [0, 0, 0, 0, 2, 1, 1, 0],
-  [0, 0, 0, 0, 0, 0, 6, 0],
-];
+	[0, 0, 0, 0, 0, -4, -6, 0],
+	[0, 0, 0, 0, 0, -1, -1, -1],
+	[0, 0, -1, 0, 0, 0, 0, 0],
+	[0, -1, 1, 0, -1, 0, 0, 0],
+	[0, 1, 0, 0, 1, 0, 0, 0],
+	[0, 0, 0, 0, 0, 3, 0, 1],
+	[0, 0, 0, 0, 2, 1, 1, 0],
+	[0, 0, 0, 0, 0, 0, 6, 0],
+]
 //Otevřete tento program v konzoli a napište příkaz, který přesune bílého koně z pozice f3 na pozici e5, kde sebere černého pěšce. Výsledkem by mělo být upravené pole obsahující nové pozice figurek.
-sachovnice[3][4] = 3;
-sachovnice[5][5] = 0;
+sachovnice[3][4] = 3
+sachovnice[5][5] = 0
 ```

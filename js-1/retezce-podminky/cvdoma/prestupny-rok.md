@@ -12,19 +12,19 @@ Napište program, který po zadání kalendářního roku vypíše, zda jde o ro
 Následujeme přesně zadání. Vzniknou tím však hodně zanořené podmínky a opakování stejného kódu.
 
 ```js
-const year = Number(prompt('Zadej kalendářní rok:'));
+const year = Number(prompt('Zadej kalendářní rok:'))
 if (year % 4 === 0) {
-  if (year % 100 === 0) {
-    if (year % 400 === 0) {
-      document.body.innerHTML = `<p>${year} je přestupný</p>`;
-    } else {
-      document.body.innerHTML = `<p>${year} není přestupný</p>`;
-    }
-  } else {
-    document.body.innerHTML = `<p>${year} je přestupný</p>`;
-  }
+	if (year % 100 === 0) {
+		if (year % 400 === 0) {
+			document.body.innerHTML = `<p>${year} je přestupný</p>`
+		} else {
+			document.body.innerHTML = `<p>${year} není přestupný</p>`
+		}
+	} else {
+		document.body.innerHTML = `<p>${year} je přestupný</p>`
+	}
 } else {
-  document.body.innerHTML = `<p>${year} není přestupný</p>`;
+	document.body.innerHTML = `<p>${year} není přestupný</p>`
 }
 ```
 
@@ -33,16 +33,16 @@ if (year % 4 === 0) {
 Zbavíme se jedné úrovně zanoření a opakování kódu.
 
 ```js
-const year = Number(prompt('Zadej kalendářní rok:'));
-let leap = 'není';
+const year = Number(prompt('Zadej kalendářní rok:'))
+let leap = 'není'
 
 if (year % 100 === 0) {
-  if (year % 400 === 0) {
-    leap = 'je';
-  }
+	if (year % 400 === 0) {
+		leap = 'je'
+	}
 } else if (year % 4 === 0) {
-  leap = 'není';
+	leap = 'není'
 }
 
-document.body.innerHTML = `<p>${year} ${leap} přestupný</p>`;
+document.body.innerHTML = `<p>${year} ${leap} přestupný</p>`
 ```

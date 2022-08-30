@@ -12,15 +12,15 @@ V předchozí lekci jsem vytvářeli stránku pro registraci na očkování. Cht
 ---solution
 
 ```js
-const age = Number(prompt('Zadej svůj věk:'));
+const age = Number(prompt('Zadej svůj věk:'))
 if (age >= 65) {
-  const heslo = prompt('V pořádku. Teď zadej heslo:');
-  if (heslo.length <= 8) {
-    document.body.innerHTML = 'Slabé heslo.';
-  } else {
-    document.body.innerHTML = 'Heslo je v pořádku.';
-  }
+	const heslo = prompt('V pořádku. Teď zadej heslo:')
+	if (heslo.length <= 8) {
+		document.body.innerHTML = 'Slabé heslo.'
+	} else {
+		document.body.innerHTML = 'Heslo je v pořádku.'
+	}
 } else {
-  document.body.innerHTML = 'Nízký věk.';
+	document.body.innerHTML = 'Nízký věk.'
 }
 ```

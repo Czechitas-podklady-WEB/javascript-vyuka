@@ -6,10 +6,10 @@ Přidejme do našeho formuláře políčko pro přijmení.
 
 ```html
 <form id="registration">
-  <h1>Přihláška na kurz</h1>
-  <input id="firstName" type="text" />
-  <input id="lastName" type="text" />
-  <button type="submit">Přihlásit</button>
+	<h1>Přihláška na kurz</h1>
+	<input id="firstName" type="text" />
+	<input id="lastName" type="text" />
+	<button type="submit">Přihlásit</button>
 </form>
 ```
 
@@ -29,9 +29,9 @@ S použitím popisků bude náš registrační formulář vypadat následovně.
 
 ```html
 <form id="registration">
-  <label> Jméno: <input type="text" id="firstName" /> </label>
-  <label> Příjmení: <input type="text" id="lastName" /> </label>
-  <button type="submit">Přihlásit</button>
+	<label> Jméno: <input type="text" id="firstName" /> </label>
+	<label> Příjmení: <input type="text" id="lastName" /> </label>
+	<button type="submit">Přihlásit</button>
 </form>
 ```
 
@@ -41,12 +41,12 @@ Takto ale rozložení prvků nevypadá moc hezky. Využijeme proto více našich
 
 ```html
 <form id="registration">
-  <h1>Přihláška na kurz</h1>
-  <label class="field"> Jméno: <input type="text" id="firstName" /> </label>
-  <label class="field"> Příjmení: <input type="text" id="lastName" /> </label>
-  <div class="controls">
-    <button type="submit">Přihlásit</button>
-  </div>
+	<h1>Přihláška na kurz</h1>
+	<label class="field"> Jméno: <input type="text" id="firstName" /> </label>
+	<label class="field"> Příjmení: <input type="text" id="lastName" /> </label>
+	<div class="controls">
+		<button type="submit">Přihlásit</button>
+	</div>
 </form>
 ```
 
@@ -65,7 +65,7 @@ Umožňuje uživateli zaškrtnout možnost ano či ne.
 
 ```html
 <label class="check">
-  <input type="checkbox" />Chci dostávat informovat o dalších akcích
+	<input type="checkbox" />Chci dostávat informovat o dalších akcích
 </label>
 ```
 
@@ -77,13 +77,13 @@ Umožňuje výběr z několika možností formou rozbalovací nabídky.
 
 ```html
 <label class="field">
-  Odkud o nás víte:
-  <select>
-    <option value="facebook">Facebook</option>
-    <option value="instagram">Instagram</option>
-    <option value="friends">Od známých</option>
-    <option value="other">Jiné…</option>
-  </select>
+	Odkud o nás víte:
+	<select>
+		<option value="facebook">Facebook</option>
+		<option value="instagram">Instagram</option>
+		<option value="friends">Od známých</option>
+		<option value="other">Jiné…</option>
+	</select>
 </label>
 ```
 

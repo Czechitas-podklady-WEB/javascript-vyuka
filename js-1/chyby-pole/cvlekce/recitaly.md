@@ -7,29 +7,29 @@ U všech následujících úryvků kódů vytvořte technický popis jejich fung
 
 1.  ```js
     const average = (a, b) => {
-      return (a + b) / 2;
-    };
+    	return (a + b) / 2
+    }
     ```
 1.  ```js
-    const titleElement = document.querySelector('.title');
-    titleElement.textContent = 'Nadpis';
+    const titleElement = document.querySelector('.title')
+    titleElement.textContent = 'Nadpis'
     ```
 1.  ```js
-    let time = 0;
+    let time = 0
     setTimeout(() => {
-      time += 1;
-      console.log('time', time);
-    }, 1000);
+    	time += 1
+    	console.log('time', time)
+    }, 1000)
     ```
 1.  ```js
     buttonOk.addEventListener('click', () => {
-      document.body.innerHTML = '<p>Everything ok</p>';
-    });
+    	document.body.innerHTML = '<p>Everything ok</p>'
+    })
     ```
 1.  ```js
     document.addEventListener('keyup', (event) => {
-      if (event.code === 'KeyP') {
-        console.log('paused');
-      }
-    });
+    	if (event.code === 'KeyP') {
+    		console.log('paused')
+    	}
+    })
     ```

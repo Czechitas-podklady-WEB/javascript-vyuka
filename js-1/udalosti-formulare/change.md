@@ -4,9 +4,9 @@ Kromě události `submit` se nám ve formulářích bude hodit také událost `i
 
 ```js
 document.querySelector('#firstName').addEventListener('input', (e) => {
-  const titleElm = document.querySelector('#registration h1');
-  titleElm.textContent = `Přihláška pro ${e.target.value}`;
-});
+	const titleElm = document.querySelector('#registration h1')
+	titleElm.textContent = `Přihláška pro ${e.target.value}`
+})
 ```
 
 Takováto ukázka je spíše pro demonstraci. V praxi se nám událost `input` najčastěji hodí například ke kontrole správnosti vstupu přímo během toho jak uživatel píše. Můžeme tak nechat zčervenat rámeček kolem políčka pokud například uživatel zadává číslo platební karty a pořád jej nezadal správně.

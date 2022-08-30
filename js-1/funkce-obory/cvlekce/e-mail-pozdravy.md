@@ -24,7 +24,7 @@ Obsah souboru `index.js`:
 
 ```js
 const goodbye = (name) => {
-  const closingElement = document.querySelector('.email__closing');
-  closingElement.textContent = `Na shledanou ${name}`;
-};
+	const closingElement = document.querySelector('.email__closing')
+	closingElement.textContent = `Na shledanou ${name}`
+}
 ```

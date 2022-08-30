@@ -21,16 +21,16 @@ Abychom se ze všeho toho sčítání a uvozovek nezbláznili, moderní JavaScri
 
 ```js
 document.body.innerHTML =
-  `<h2>Objednávka: ${id}</h2>` +
-  `<p>Zboží ${product} bude doručeno ${delivery}.</p>`;
+	`<h2>Objednávka: ${id}</h2>` +
+	`<p>Zboží ${product} bude doručeno ${delivery}.</p>`
 ```
 
 Uvnitř složených závorek otevíráme jakési JavaScriptové okno, do kterého můžeme vepsat nejen proměnnou, ale zcela libovolný výraz, jehož výsledek bude automaticky zkonvertován na řetězec.
 
 ```js
 document.body.innerHTML =
-  `<h2>Objednávka: ${String(id).padStart(8, '0')}</h2>` +
-  `<p>Zboží ${product} bude doručeno ${delivery}.</p>`;
+	`<h2>Objednávka: ${String(id).padStart(8, '0')}</h2>` +
+	`<p>Zboží ${product} bude doručeno ${delivery}.</p>`
 ```
 
 Díky interpolaci řetězců se náš kód stává mnohem čitelnějším a budeme ji tedy používat všude, kde to půjde.
@@ -53,11 +53,11 @@ Abychom takový řetězec sestavili, musíme si pomoct sčítáním řetězců.
 
 ```js
 const content =
-  '<header>' +
-  '  <h1>Název stránky</h1>' +
-  '</header>' +
-  '<main>Obsah stránky</main>' +
-  '<footer>Patička</footer>';
+	'<header>' +
+	'  <h1>Název stránky</h1>' +
+	'</header>' +
+	'<main>Obsah stránky</main>' +
+	'<footer>Patička</footer>'
 ```
 
 Tento zápis je ovšem dost neohrabaný a po čase nám začne lézt na nervy. Interpolace řetězců nás ale zachrání, neboť řetězce ve zpětných apostrofech nové řádky obsahovat mohou.
@@ -69,19 +69,19 @@ const content = `
   </header>
   <main>Obsah stránky</main>
   <footer>Patička</footer>
-`;
+`
 ```
 
 Navíc můžeme do takového řetězce snadno zakomponovat proměnné a vytvořit tak obsah stránky opravdu profesionálně.
 
 ```js
 const order = {
-  id: 37214,
-  product: 'pěnová matrace',
-  delivery: '21.8.2021',
-};
+	id: 37214,
+	product: 'pěnová matrace',
+	delivery: '21.8.2021',
+}
 
-const { id, product, delivery } = order;
+const { id, product, delivery } = order
 
 const content = `
   <header>
@@ -91,7 +91,7 @@ const content = `
     <p>Zboží ${product} bude doručeno ${delivery}.</p>
   </main>
   <footer>www.matrace-a-syn.cz</footer>
-`;
+`
 
-document.body.innerHTML = content;
+document.body.innerHTML = content
 ```

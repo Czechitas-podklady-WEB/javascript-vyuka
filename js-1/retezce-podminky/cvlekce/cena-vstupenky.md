@@ -17,18 +17,18 @@ Nakonec spočtenou cenu vypište s nějakou hezkou zprávou na výstup.
 ---solution
 
 ```js
-const plnaCena = 12;
-let cena = '';
-const age = Number(prompt('Zadejte svůj věk:'));
+const plnaCena = 12
+let cena = ''
+const age = Number(prompt('Zadejte svůj věk:'))
 if (age < 6) {
-  cena = 0;
+	cena = 0
 } else if (age >= 6 && age <= 26) {
-  cena = plnaCena * 0.65;
+	cena = plnaCena * 0.65
 } else if (age >= 27 && age <= 64) {
-  cena = plnaCena;
+	cena = plnaCena
 } else {
-  cena = plnaCena * 0.5;
+	cena = plnaCena * 0.5
 }
-cena = Math.ceil(cena);
-document.body.innerHTML = 'Cena lístku je ' + cena + ' Eur.';
+cena = Math.ceil(cena)
+document.body.innerHTML = 'Cena lístku je ' + cena + ' Eur.'
 ```

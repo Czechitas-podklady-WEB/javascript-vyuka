@@ -11,8 +11,8 @@ Naklonujte si [repozitář](https://github.com/Czechitas-podklady-WEB/zarovka-za
 ---solution
 
 ```js
-const bulb = document.querySelector('.bulb');
+const bulb = document.querySelector('.bulb')
 document.addEventListener('keydown', () => {
-  bulb.classList.toggle('bulb--on');
-});
+	bulb.classList.toggle('bulb--on')
+})
 ```

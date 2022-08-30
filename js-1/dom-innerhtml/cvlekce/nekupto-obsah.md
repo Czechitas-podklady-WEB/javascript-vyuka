@@ -15,7 +15,7 @@ Pokračujte v předchozím cvičení. Všimněte si, že v souboru `index.js` js
        <p class="card-text">Vynikající pokud si často zapomínáte deštník a nechcete být nikdy překvapeni nečekanou přeháňkou.</p>
      </div>
      <button type="button" class="btn btn-lg btn-primary btn-block">Koupit</button>
-   `;
+   `
    ```
 
 1. Obsah prvního produktu v souboru `index.html` můžeme nyní smazat. Výsledné HTML pak bude vypadat takto.

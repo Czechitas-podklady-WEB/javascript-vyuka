@@ -13,10 +13,10 @@ Vyzkoušejte v konzoli založit více různých účtů s různými typy hesel.
 
 ```js
 const createAccount = (user, generatePassword) => {
-  return `Uživatel ${user} s heslem ${generatePassword(9)}`;
-};
+	return `Uživatel ${user} s heslem ${generatePassword(9)}`
+}
 
-console.log(createAccount('Míša', weakPassword));
-console.log(createAccount('Řízek', mediumPassword));
-console.log(createAccount('Hustodémon', strongPassword));
+console.log(createAccount('Míša', weakPassword))
+console.log(createAccount('Řízek', mediumPassword))
+console.log(createAccount('Hustodémon', strongPassword))
 ```

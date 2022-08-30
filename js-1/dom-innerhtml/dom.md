@@ -9,21 +9,21 @@ Ve chvíli, kdy uživatel zadá do prohlížeče URL adresu, webový prohlíže�
 ```html
 <!DOCTYPE html>
 <html lang="cs">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="header">Hlavička</div>
-    <div class="cards">
-      <div class="card">Karta 1</div>
-      <div class="card">Karta 2</div>
-      <div class="card">Karta 3</div>
-    </div>
-    <div class="footer">Patička</div>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="header">Hlavička</div>
+		<div class="cards">
+			<div class="card">Karta 1</div>
+			<div class="card">Karta 2</div>
+			<div class="card">Karta 3</div>
+		</div>
+		<div class="footer">Patička</div>
+	</body>
 </html>
 ```
 

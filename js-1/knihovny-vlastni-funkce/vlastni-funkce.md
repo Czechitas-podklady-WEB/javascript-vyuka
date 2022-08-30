@@ -9,9 +9,9 @@ Představme si například, že vyměřujeme pozemek a chceme spočítat plochu 
 Naše funkce tedy bude mít dva vstupy - šířku a výšku. Ze školy si pamatujeme, že plochu prvoúhlého trojúhelníka spočítáme tak, že vynásobíme šířku výškou a výsledek vydělíme dvěma. Už tedy víme, co má funkce dělat a zbývá nám tento postup zapsat v JavaScritpu.
 
 ```js
-(width, height) => {
-  return (width * height) / 2;
-};
+;(width, height) => {
+	return (width * height) / 2
+}
 ```
 
 Zápis funkce se dělí na definici :term{cs="vstupů" en="inputs"} (před šipkou) a :term{cs="tělo" en="body"} (za šipkou). Jako vstupy v kulatých závorkách vidíme dvě slova `width` a `height`. To jsou speciální proměnné, kterým říkáme :term{cs="parametry" en="parameters"}.
@@ -25,19 +25,19 @@ Zbývá ukázat, jak naší funkci zavoláme. Zde přichází jedno z nejdůlež
 Funkci můžeme uložit do proměnné stejně jako každou jinou hodnotu. Uložením do proměnné tak funkci dáme jméno. Všimněte si, že jde o stejný postup jako s jakoukoliv jinou hodnotou.
 
 ```js
-const age = 25;
-const user = 'robert';
-const married = false;
-const element = document.querySelector('.card');
+const age = 25
+const user = 'robert'
+const married = false
+const element = document.querySelector('.card')
 const landArea = (width, height) => {
-  return (width * height) / 2;
-};
+	return (width * height) / 2
+}
 ```
 
 Jakmile máme funkci takto hezky uloženou v proměnné, můžeme jí zavolat známým způsobem.
 
 ```js
-landArea(5, 3);
+landArea(5, 3)
 ```
 
 Jakmile funkci takto zavoláme, například s hodnotami 5 a 3, JavaScript tyto hodnoty uloží do parametrů `width` a `height` a v těle funkce pak parametry použjeme jako normální proměnné pro náš výpočet.

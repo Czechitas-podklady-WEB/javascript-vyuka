@@ -4,26 +4,26 @@ V praxi se nám bude často stávat, že chceme z objektu rychle získat vícero
 
 ```js
 const product = {
-  name: 'Mlýnek na kávu',
-  price: 520,
-  currency: 'Kč',
-};
+	name: 'Mlýnek na kávu',
+	price: 520,
+	currency: 'Kč',
+}
 
-const name = product.name;
-const price = product.price;
-const currency = product.currency;
+const name = product.name
+const price = product.price
+const currency = product.currency
 ```
 
 Programátoři jsou líné bytosti a tento postup jim přijde zdlouhavý. Pokud se naše proměnné jmenují stejně jako klíče uvnitř objektu, můžeme si ušetřit psaní a použít takzvané :term{cs="destrukturování" en="destructuring"}.
 
 ```js
 const product = {
-  name: 'Mlýnek na kávu',
-  price: 520,
-  currency: 'Kč',
-};
+	name: 'Mlýnek na kávu',
+	price: 520,
+	currency: 'Kč',
+}
 
-const { name, price, currency } = product;
+const { name, price, currency } = product
 ```
 
 Tímto zápisem říkáme, že chceme vyrobit tři proměnné, do kterých se uloží hodnoty z objektu `product`.

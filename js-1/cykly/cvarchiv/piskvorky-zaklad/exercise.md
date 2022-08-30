@@ -15,11 +15,11 @@ Než vůbec začneme programovat, je třeba si rozmyslet, jak budeme reprezentov
 
 ```js
 const gamePlan = [
-  [' ', ' ', ' ', ' '],
-  ['o', 'x', 'x', 'x'],
-  [' ', ' ', 'o', ' '],
-  [' ', 'o', ' ', ' '],
-];
+	[' ', ' ', ' ', ' '],
+	['o', 'x', 'x', 'x'],
+	[' ', ' ', 'o', ' '],
+	[' ', 'o', ' ', ' '],
+]
 ```
 
 Když však začneme aplikaci skutečně psát, po čase zjistíme, že se nám mnohem více hodí reprezentace, která nepoužívá pole polí, nýbrž pouze jedno dlouhé pole čísel. Křížek pak reprezentujeme jako 1, prázdné políčko jako 0 a kolečko jako -1. Hrací plán uvedený výše pak bude vypadat takto.
@@ -37,7 +37,7 @@ const gamePlan = [
 Pozor na to, že bílé znaky jako mezery a nové řádky jsme sem vložili pouze pro lepší čitelnost kódu. Z hlediska JavaScriptu náš hrací plán vypadá takto.
 
 ```js
-const gamePlan = [0, 0, 0, 0, -1, 1, 1, 1, 0, 0, -1, 0, 0, -1, 0, 0];
+const gamePlan = [0, 0, 0, 0, -1, 1, 1, 1, 0, 0, -1, 0, 0, -1, 0, 0]
 ```
 
 Nyní už jsme připravení začít psát naši aplikaci.

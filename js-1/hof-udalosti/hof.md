@@ -6,8 +6,8 @@ Z minula už víme, že funkce jsou hodnoty podobně jako čísla, řetězce neb
 
 ```js
 const goodbye = (name) => {
-  return `S pozdravem ${name}`;
-};
+	return `S pozdravem ${name}`
+}
 ```
 
 Ohledně toho, co vše je možné s funkcemi dělat, jsme teprve na začátku. Je tedy čas pustit se králičí norou malinko hlouběji.
@@ -31,24 +31,24 @@ Napišme si funkce, které simulují naše doručovací společnosti.
 
 ```js
 const hejsci = (zasilka) => {
-  if (Math.random() > 0.1) {
-    return `Zásilka „${zasilka}“ doručena za 30 minut, kámo.`;
-  }
+	if (Math.random() > 0.1) {
+		return `Zásilka „${zasilka}“ doručena za 30 minut, kámo.`
+	}
 
-  return `Zásilka „${zasilka}“ se ztratila. Kurýra přepadla smečka hladových bezdomovců.`;
-};
+	return `Zásilka „${zasilka}“ se ztratila. Kurýra přepadla smečka hladových bezdomovců.`
+}
 
 const machri = (zasilka) => {
-  if (Math.random() > 0.5) {
-    return `Zásilka „${zasilka}“ doručena za 10 minut.`;
-  }
+	if (Math.random() > 0.5) {
+		return `Zásilka „${zasilka}“ doručena za 10 minut.`
+	}
 
-  return `Zásilka „${zasilka}“ ztracena. Drona přepadlo hejno hladových holubů.`;
-};
+	return `Zásilka „${zasilka}“ ztracena. Drona přepadlo hejno hladových holubů.`
+}
 
 const borci = (zasilka) => {
-  return `Zásilka „${zasilka}“ doručena s přehledem za dvě hodiny.`;
-};
+	return `Zásilka „${zasilka}“ doručena s přehledem za dvě hodiny.`
+}
 ```
 
 Tyto funkce si můžeme vyzkoušet například v konzoli.
@@ -62,11 +62,11 @@ Představme si nyní, že si jako zákazník objednáte jídlo a chcete si zvoli
 
 ```js
 const objednat = (jidlo, doruceni) => {
-  const cislo = Math.floor(Math.random() * 1000);
-  const id = String(cislo).padStart(4, '0');
-  const balicek = `${jidlo} (${id})`;
-  return doruceni(balicek);
-};
+	const cislo = Math.floor(Math.random() * 1000)
+	const id = String(cislo).padStart(4, '0')
+	const balicek = `${jidlo} (${id})`
+	return doruceni(balicek)
+}
 ```
 
 Všimněte si, že funkce `objednat` se chová k parametru `doruceni` jako by to byla funkce. Očekáváme tedy, že v tomto parametru skutečně obdržíme nějakou funkci, kterou poté můžeme zavolat. Zkusme třeba naši funkci `objednat` zavolat s funkcí `hejsci`.

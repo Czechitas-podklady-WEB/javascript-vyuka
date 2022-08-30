@@ -12,20 +12,20 @@ Pokud chceme zjistit, jaká klávesa byla stisknuta při událostech `keyup` a `
 
 ```js
 document.addEventListener('keyup', (e) => {
-  if (e.code === 'Enter') {
-    console.log('enter');
-  }
-});
+	if (e.code === 'Enter') {
+		console.log('enter')
+	}
+})
 ```
 
 Nebo na stisknutí :kbd[Ctrl]+:kbd[C].
 
 ```js
 document.addEventListener('keyup', (e) => {
-  if (e.code === 'KeyC' && e.ctrlKey) {
-    console.log('Ctrl+C');
-  }
-});
+	if (e.code === 'KeyC' && e.ctrlKey) {
+		console.log('Ctrl+C')
+	}
+})
 ```
 
 Formulářové prvky mají mnoho dalších atributů, které jsme v lekci nezmínili. Patří mezi ně

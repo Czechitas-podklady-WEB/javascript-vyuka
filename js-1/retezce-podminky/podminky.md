@@ -5,12 +5,12 @@ Nyní se konečně dostáváme k tématu, na které jsme se tak dlouho připravo
 Pro jednoduchý příklad si představme e-shop prodávající alkoholické nápoje. Před každou objednávkou musíme zkontrolovat, že zákazník má alepoň 18 let.
 
 ```js
-const age = Number(prompt('Zadejte svůj věk:'));
+const age = Number(prompt('Zadejte svůj věk:'))
 
 if (age >= 18) {
-  document.body.innerHTML = '<p>Pokračujte k platbě</p>';
+	document.body.innerHTML = '<p>Pokračujte k platbě</p>'
 } else {
-  document.body.innerHTML = '<p>Bohužel máte nízký věk</p>';
+	document.body.innerHTML = '<p>Bohužel máte nízký věk</p>'
 }
 ```
 
@@ -26,9 +26,9 @@ Je dobré mít na paměti, že odsazování a obecně většina bílých znaků,
 
 ```js
 if (age >= 18) {
-  document.body.innerHTML = '<p>Pokračujte k platbě</p>';
+	document.body.innerHTML = '<p>Pokračujte k platbě</p>'
 } else {
-  document.body.innerHTML = '<p>Bohužel máte nízký věk</p>';
+	document.body.innerHTML = '<p>Bohužel máte nízký věk</p>'
 }
 ```
 
@@ -60,43 +60,43 @@ Zatím jsme viděli podmínky se dvěma větvemi. Není ovšem problém mít pod
 
 ```js
 if (age >= 18) {
-  document.body.innerHTML = '<p>Pokračujte k platbě</p>';
+	document.body.innerHTML = '<p>Pokračujte k platbě</p>'
 }
 ```
 
 Pokud je výraz v podmínce `false`, blok kódu se prostě přeskočí. Občas ale naopak potřebujeme podmínky s vícero větvemi. Uvažte například situaci, kdy se snažíme ohodnotit písemku známkami A až F podle dosaženého počtu budů.
 
 ```js
-let znamka = '';
+let znamka = ''
 if (body >= 90) {
-  znamka = 'A';
+	znamka = 'A'
 } else if (body >= 80) {
-  znamka = 'B';
+	znamka = 'B'
 } else if (body >= 70) {
-  znamka = 'C';
+	znamka = 'C'
 } else if (body >= 60) {
-  znamka = 'D';
+	znamka = 'D'
 } else if (body >= 50) {
-  znamka = 'E';
+	znamka = 'E'
 } else {
-  znamka = 'F';
+	znamka = 'F'
 }
 ```
 
 V takto rozvětvené podmínkce JavaScript runtime prochází jednotlivé výrazy dokud nenarazí na ten, který se vyhodnotí jako `true`. Vykoná příslušný blok a kódu a **zbylé větve přeskočí.** Vykoná se tak pouze první větev, která se vyhodnotí jako `true`. Pokud by byly všechny výrazy `false`, vykoná se větev `else`. Jak už víme, větev `else` přítomná být nemusí. Výše udovedný kód bychom tedy mohli malinko zkrátit takto.
 
 ```js
-let znamka = 'F';
+let znamka = 'F'
 if (body >= 90) {
-  znamka = 'A';
+	znamka = 'A'
 } else if (body >= 80) {
-  znamka = 'B';
+	znamka = 'B'
 } else if (body >= 70) {
-  znamka = 'C';
+	znamka = 'C'
 } else if (body >= 60) {
-  znamka = 'D';
+	znamka = 'D'
 } else if (body >= 50) {
-  znamka = 'E';
+	znamka = 'E'
 }
 ```
 
@@ -106,16 +106,16 @@ Každý blok kódu může obsahovat libovolné příkazy, tedy i další podmín
 
 ```js
 if (age >= 18) {
-  document.body.innerHTML = '<p>Pokračujte k platbě</p>';
+	document.body.innerHTML = '<p>Pokračujte k platbě</p>'
 } else {
-  const remains = 18 - age;
-  if (remains < 2) {
-    document.body.innerHTML = '<p>Ještě si chvíli počkejte</p>';
-  } else if (remains < 5) {
-    document.body.innerHTML = '<p>Co to tady zkoušíš?</p>';
-  } else {
-    document.body.innerHTML = '<p>Utíkej za mamkou!</p>';
-  }
+	const remains = 18 - age
+	if (remains < 2) {
+		document.body.innerHTML = '<p>Ještě si chvíli počkejte</p>'
+	} else if (remains < 5) {
+		document.body.innerHTML = '<p>Co to tady zkoušíš?</p>'
+	} else {
+		document.body.innerHTML = '<p>Utíkej za mamkou!</p>'
+	}
 }
 ```
 

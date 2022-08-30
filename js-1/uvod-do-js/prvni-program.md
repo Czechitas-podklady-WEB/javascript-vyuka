@@ -7,32 +7,32 @@ Naše JavaScriptové programy budou vždy součástí nějaké webové stránky.
 ```html
 <!DOCTYPE html>
 <html lang="cs">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>První program</title>
-  </head>
-  <body>
-    <h1>První program</h1>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>První program</title>
+	</head>
+	<body>
+		<h1>První program</h1>
+	</body>
 </html>
 ```
 
 Pro náš JavaScriptový kód budeme vždy vytvářet oddělený soubor podobně jako jste zvyklí vytvářet oddělený soubor pro CSS styly. JavaScriptovému programu většinou budeme dávat název `index.js`. Jeho obsah může vypadat například takto.
 
 ```js
-document.body.innerHTML = '<h1>ahoj</h1>';
+document.body.innerHTML = '<h1>ahoj</h1>'
 ```
 
 Co tento kód přesně dělá se dozvíme za malou chvíli. Teď je naším hlavním úkolem zapojit tento program do naší stránky. To provedeme tak, že vložíme značku `script` s odkazem na soubor `index.js` do hlavičky stránky.
 
 ```html
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>První program</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>První program</title>
 
-  <script type="module" src="index.js"></script>
+	<script type="module" src="index.js"></script>
 </head>
 ```
 
