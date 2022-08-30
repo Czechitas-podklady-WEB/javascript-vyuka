@@ -4,4 +4,4 @@ image: intro-image.svg
 chapters:
   - uvod-do-programovani-1
   # - uvod-do-programovani-2
-  # - js-1
+  - js-1
