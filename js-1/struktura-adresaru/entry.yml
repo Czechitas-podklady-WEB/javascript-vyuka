@@ -2,4 +2,11 @@ title: Struktura adresářů
 lead: Struktura adresářů
 access: claim
 sections:
+  - prikazova-radka
   - struktura-adresaru
+  - cv-textovka
+  - server
+  - cv-webova-textovka
+  - shrnuti
+  - cv-ulozky
+  - cteni-na-doma
