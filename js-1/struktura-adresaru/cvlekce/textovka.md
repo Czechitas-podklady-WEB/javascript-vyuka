@@ -61,14 +61,14 @@ Pomocí příkazové řádky vytvořte hru podle následujícího scénáře. Ne
     > ../pred-domem/ulice.txt
     ```
 
-1.  Zkus si textovku zahrát. Přesuň se do kořenové složky `vetrelec` a otevři soubor `zacatek.txt`. Protože je hra ještě neúplná postupuj následovně:
+1.  Zkuste si textovku zahrát. Přesuňte se do kořenové složky `vetrelec` a otevřete soubor `zacatek.txt`. Protože je hra ještě neúplná postupujte následovně:
 
     1. Pokračuj na **schodiště**.
     1. Dále **konfrontuj** zloděje.
 
 ### Bonus
 
-1. Pro úplnost příběhu doplň následující soubory:
+1. Pro úplnost příběhu doplňte následující soubory:
 
    #### `loznice/skrin/ve-skrini.txt`
 
@@ -124,4 +124,4 @@ Pomocí příkazové řádky vytvořte hru podle následujícího scénáře. Ne
    Zloděj vybíhá před dům a vidí tě, jak běžíš k vedlejšímu vchodu. Ryche nasedne do auta a ujíždí pryč s tvým majetkem.
    ```
 
-1. Zkus si textovku znovu zahrát. Tentokrát vol další kroky podle sebe.
+1. Zkuste si textovku znovu zahrát. Tentokrát volte další kroky podle sebe.
