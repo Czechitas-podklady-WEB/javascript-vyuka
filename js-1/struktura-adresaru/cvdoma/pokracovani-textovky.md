@@ -3,4 +3,4 @@ title: Pokračování textovky
 demand: 2
 ---
 
-Pokračujte v textovce z předchozího cvičení. Domyslete příběh podle sebe.
+Pokračujte ve webové textovce z předchozího cvičení. Rozšiřte příběh podle sebe.
