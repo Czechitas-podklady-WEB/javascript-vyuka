@@ -42,6 +42,8 @@ Adresáře, neboli složky můžeme procházet podobně jako to znáte z aplikac
   cd ..
   ```
 
+  Příkaz `cd` je možné pouštět vícekrát za sebou nebo skládat delší cesty pomocí lomítek. Například `cd ../../..` vás přesune o tři úrovně výše nebo `cd ../tajne` do složky `tajne`, která je o jednu úroveň výše.
+
 #### Vytvoření další složky
 
 - ##### Mac i Windows
