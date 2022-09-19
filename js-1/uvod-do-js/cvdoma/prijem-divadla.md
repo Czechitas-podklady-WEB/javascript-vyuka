@@ -22,5 +22,6 @@ const prijmySeStudenty =
 	(plnaCena * (1 - studenti) + studentskaCena * studenti) *
 	pocetNavstevnikuNaPredstaveni *
 	pocetPredstaveniZaMesic
-document.body.innerHTML += '<p>Příjem divadla se slevou pro studenty: ' + prijmySeStudenty + ' Kč</p>'
+document.body.innerHTML +=
+	'<p>Příjem divadla se slevou pro studenty: ' + prijmySeStudenty + ' Kč</p>'
 ```
