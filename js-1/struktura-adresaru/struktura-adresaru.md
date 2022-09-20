@@ -1,6 +1,6 @@
 ## Struktura adresářů
 
-Adresáře, neboli složky můžeme procházet podobně jako to znáte z aplikace _Průzkumník_/_Explorer_ i pomocí příkazové řádky.
+Adresáře, neboli složky můžeme procházet, podobně jako to znáte z aplikace _Průzkumník_/_Explorer_, i pomocí příkazové řádky.
 
 ### Užitečné termíny
 
