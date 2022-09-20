@@ -8,11 +8,13 @@ Abychom se s řádkou seznámili, ukážeme si nejdříve, jak procházet složk
 
 Spusťte aplikaci _Terminal_ / _Terminál_.
 
+::fig[Terminál]{src=assets/mac-terminal.png}
+
 ### Windows
 
 Hledejte aplikaci _cmd.exe_ / _Command Prompt_ / _Příkazová řádka_ / _Terminál_.
 
-::fig[Windows Terminal]{src=assets/windows-terminal.png}
+::fig[Windows Terminál]{src=assets/windows-terminal.png}
 
 ### Okno příkazové řádky
 
