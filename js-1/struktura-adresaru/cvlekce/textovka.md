@@ -5,7 +5,7 @@ demand: 3
 
 Pomocí příkazové řádky vytvořte hru podle následujícího scénáře. Nepoužívejte _VS Code_ ani aplikaci _Průzkumník_/_Finder_, pokud se vyloženě nezamotáte, ať si ovládání příkazové řádky osvojíte.
 
-1.  Kořenovou složku pro textovou hru vytvořte a pojmenujte `vetrelec` uvnitř složky, kde typicky zakládáte nové projekty.
+1.  Kořenovou složku pro textovou hru příkazem `mkdir` vytvořte a pojmenujte `vetrelec` uvnitř složky, kde typicky zakládáte nové projekty.
 
 1.  Příkazem `cd` (možná opakovaným použitím) se přesuňte do složky `vetrelec`.
 
