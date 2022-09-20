@@ -11,6 +11,8 @@ Pomocí příkazové řádky vytvořte hru podle následujícího scénáře. Ne
 
 1.  V ní vytvořte soubor `zacatek.txt` s textem:
 
+    #### Cesta: `vetrelec/zacatek.txt`
+
     ```text
     Ze sladkého spánku tě probudí podivný šramot. Zdá se, že se ozývá z obýváku v přízemí. Tiše otevřeš dveře ložnice a pokradmu scházíš schody dolů zkontrolovat situaci.
 
@@ -21,7 +23,7 @@ Pomocí příkazové řádky vytvořte hru podle následujícího scénáře. Ne
 
 1.  Všimněte si, že text navádí hráče do podsložky `obyvak` se souborem `schodiste.txt`. Vytvořte tuto složku a soubor s textem:
 
-    #### `vetrelec/obyvak/schodiste.txt`
+    #### Cesta: `vetrelec/obyvak/schodiste.txt`
 
     ```text
     Když sejdeš do půlky schodů, skrze zábradlí zahlédneš postavu v kapuci. Zloděj! Zdá se, že již spoustu cenných věcí stihl odnést.
@@ -39,13 +41,13 @@ Pomocí příkazové řádky vytvořte hru podle následujícího scénáře. Ne
 
 1.  Tím textovka nekončí. Doplň další soubory podle následujícího klíče:
 
-    #### `vetrelec/obyvak/konfrontace.txt`
+    #### Cesta: `vetrelec/obyvak/konfrontace.txt`
 
     ```text
     Sebehneš zbytek schodů, ale v nervozitě a tmě nešikovně zakopneš o křeslo. Zloděj se vyleká a přiskočí k vchodovým dveřím. Než se nadeješ, slyšíš, jak venku odjíždí auto s tvým majetkem.
     ```
 
-    #### `vetrelec/loznice/mobil.txt`
+    #### Cesta: `vetrelec/loznice/mobil.txt`
 
     ```text
     Tiše vystoupáš schody zpět nahoru. Jenže ouha, tvůj mobilní telefon leží na nočním stolku - vybitý. Nabíječku jsi samozřejmě zapomněl dole v obýváku. V tom slyšíš na schodech kroky.
@@ -68,7 +70,7 @@ Pomocí příkazové řádky vytvořte hru podle následujícího scénáře. Ne
 
 1. Pro úplnost příběhu doplňte následující soubory:
 
-   #### `vetrelec/loznice/skrin/ve-skrini.txt`
+   #### Cesta: `vetrelec/loznice/skrin/ve-skrini.txt`
 
    ```text
    Škvírkou mezi dveřmi pozoruješ, jak jeden z lupičů vstupuje do ložnice. Co čert nechtěl, jde rovnou ke skříni.
@@ -82,7 +84,7 @@ Pomocí příkazové řádky vytvořte hru podle následujícího scénáře. Ne
    > osud.txt
    ```
 
-   #### `vetrelec/loznice/skrin/akce.txt`
+   #### Cesta: `vetrelec/loznice/skrin/akce.txt`
 
    ```text
    A válečným rykem a ramínkem v ruce vyrazíš ze skříně. Lupič v úleku přepadne přes postel a zamotá se do prostěradla. Vibíháš dolů po schodech a ven na ulici před dům.
@@ -90,13 +92,13 @@ Pomocí příkazové řádky vytvořte hru podle následujícího scénáře. Ne
    > ../../pred-domem/ulice.txt
    ```
 
-   #### `vetrelec/loznice/skrin/osud.txt`
+   #### Cesta: `vetrelec/loznice/skrin/osud.txt`
 
    ```text
    Lupič otevře skříň a vteřinu na sebe překvapeně hledítě. Kriminálník je ovšem duchapřítomnější, zabouchne dveře skříně a zamkne je zvenku klíčem, který trčel v zámku. Zamčený ve skříni slyšíš, jak za okny lupič odjíždí do tmy s tvým majetkem.
    ```
 
-   #### `vetrelec/pred-domem/ulice.txt`
+   #### Cesta: `vetrelec/pred-domem/ulice.txt`
 
    ```text
    Na ulici stojí lupičova škodovka s otevřeným kufrem.
@@ -110,13 +112,13 @@ Pomocí příkazové řádky vytvořte hru podle následujícího scénáře. Ne
    > sousedi.txt
    ```
 
-   #### `vetrelec/pred-domem/auto.txt`
+   #### Cesta: `vetrelec/pred-domem/auto.txt`
 
    ```text
    V lupičově autě najdeš klíčky nachystané přímo v zapalování a na sedadle, hurá, lupičův mobil. Bereš klíče i mobil, přiskočíš za roh domu a točíš tísňovou linku. Policie už je na cestě. Tvůj majetek je zachráněn.
    ```
 
-   #### `vetrelec/pred-domem/sousedi.txt`
+   #### Cesta: `vetrelec/pred-domem/sousedi.txt`
 
    ```text
    Zloděj vybíhá před dům a vidí tě, jak běžíš k vedlejšímu vchodu. Ryche nasedne do auta a ujíždí pryč s tvým majetkem.

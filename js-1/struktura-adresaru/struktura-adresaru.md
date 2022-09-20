@@ -8,6 +8,8 @@ Adresáře, neboli složky můžeme procházet, podobně jako to znáte z Window
 
 - :term{cs="Kořen" en="root"} označuje nejhlavnější složku na vašem disku, ve které jsou zanořené všechny ostatní. Kořenová složka se často říká také té, ve které jsou všechny soubory a složky jednoho projektu, jednoho webu typicky se souborem `index.html` na nejvyšší úrovni, v kořeni.
 
+- :term{cs="Cesta" en="path"} je řetězec popisující umístění souboru nebo složky uvnitř stromové struktury. Jednotlivé složky a soubory se oddělují symbolem lomítka `/`. (Windows v některých případech používá i obrácené lomítko `\`, ale nám bude stačit vždy psát to obyčejné.) Například cesta `Plocha/Projekty/JS1/lekce-02/index.html` nám říká, že v aktuální složce máme očekávat podsložku `Plocha`, v ní `Projekty`, dále `JS1`, `lekce-02` a uvnitř `index.html`.
+
 ### Příkazová řádka
 
 #### Výpis souborů a složek v aktuální složce
