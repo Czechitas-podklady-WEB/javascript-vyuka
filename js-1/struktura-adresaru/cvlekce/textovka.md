@@ -19,7 +19,7 @@ Pomocí příkazové řádky vytvořte hru podle následujícího scénáře. Ne
     > obyvak/schodiste.txt
     ```
 
-    Připomeňte si příkaz `open -a TextEdit` / `notepad.exe` z předchozí sekce.
+    Připomeňte si příkaz `notepad` pro Windows nebo `touch` a `open` pro Mac z předchozí sekce.
 
 1.  Všimněte si, že text navádí hráče do podsložky `obyvak` se souborem `schodiste.txt`. Vytvořte tuto složku a soubor s textem:
 
