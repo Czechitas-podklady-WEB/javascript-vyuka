@@ -2,7 +2,7 @@
 
 Spousta aplikací nemá :term{cs="grafické uživatelské rozhrani" en="graphical user interface"}, zkráceně _GUI_. Abychom tyto nástroje mohli používat, poslouží nám příkazová řádka, někdy označována také jako terminál.
 
-Abychom se s řádkou seznámili, ukážeme si nejdříve, jak procházet složky na vašem disku a vytvářet nové včetně souborů. Později v lekci si pak také ukážeme aplikaci užitečnou přímo pro vývoj webových stránek.
+Abychom se s řádkou seznámili, ukážeme si nejdříve, jak procházet složky a vytvářet nové včetně souborů. Později v lekci si pak také ukážeme aplikaci užitečnou přímo pro vývoj webových stránek.
 
 ### Mac
 
@@ -20,7 +20,7 @@ Příkazová řádka se ovládá převážně z klávesnice. Pokud tedy budete c
 
 ::fig[textový kurzor]{src=assets/kurzor.gif}
 
-Pojďme si vyzkoušet zadat první příkaz. Napište `whoami` a stiskněte klávesu :kbd[Enter]. Tím se spustí program se jménem `whoami`, která nemá žádné _GUI_.
+Pojďme si vyzkoušet zadat první příkaz. Napište `whoami` a stiskněte klávesu :kbd[Enter]. Tím se spustí program se jménem `whoami`, který nemá žádné _GUI_.
 
 ::fig[whoami]{src=assets/whoami.png}
 
