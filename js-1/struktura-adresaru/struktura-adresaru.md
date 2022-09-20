@@ -1,6 +1,6 @@
 ## Struktura adresářů
 
-Adresáře, neboli složky můžeme procházet, podobně jako to znáte z aplikace _Průzkumník_/_Explorer_, i pomocí příkazové řádky.
+Adresáře, neboli složky můžeme procházet, podobně jako to znáte z Windows aplikace _Průzkumník_/_Explorer_ nebo z _Finder_ na Macu, i pomocí příkazové řádky.
 
 ### Užitečné termíny
 
@@ -56,14 +56,22 @@ Adresáře, neboli složky můžeme procházet, podobně jako to znáte z aplika
 
 - ##### Mac
 
+  `touch` vytvoří nový soubor, pokud neexistuje.
+
   ```sh
-  open -a TextEdit nazev-souboru.txt
+  touch nazev-souboru.txt
+  ```
+
+  `open` otevře existující soubor v aplikaci _TextEdit_.
+
+  ```sh
+  open -e nazev-souboru.txt
   ```
 
 - ##### Windows
 
   ```sh
-  notepad.exe nazev-souboru.txt
+  notepad nazev-souboru.txt
   ```
 
 Pokud soubor `nazev-souboru.txt` neexistuje, příkazem výšeho ho můžete zároveň vytvořit.
