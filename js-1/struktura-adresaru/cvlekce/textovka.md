@@ -63,8 +63,8 @@ Pomocí příkazové řádky vytvořte hru podle následujícího scénáře. Ne
 
 1.  Zkuste si textovku zahrát. Přesuňte se do kořenové složky `vetrelec` a otevřete soubor `zacatek.txt`. Protože je hra ještě neúplná postupujte následovně:
 
-    1. Pokračuj na **schodiště**.
-    1. Dále **konfrontuj** zloděje.
+    1. Pokračujte na **schodiště**.
+    1. Dále **konfrontujte** zloděje.
 
 ### Bonus
 
