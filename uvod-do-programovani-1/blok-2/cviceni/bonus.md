@@ -15,7 +15,7 @@ Vytvořte program na sčítání.
 1.  Podobně načtěte **druhé číslo**.
 1.  Vypište uživateli výsledek ve formátu „**5 + 8 = 13**“.
 
----solution
+<!-- ---solution
 
 #### Kostka
 
@@ -31,4 +31,4 @@ let prvni = Number(prompt('Zadej první číslo:'))
 let druhe = Number(prompt('Zadej druhé číslo:'))
 
 console.log(prvni + ' + ' + druhe + ' = ' + (prvni + druhe))
-```
+``` -->

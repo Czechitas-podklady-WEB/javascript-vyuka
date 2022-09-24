@@ -5,7 +5,7 @@ demand: 3
 
 Pokračujte v předchozí úloze s počítáním oveček. Pomocí funkce `prompt` se uživatele zeptejte, kolik oveček chce spočítat a upravte podle toho i podmínku cyklu.
 
----solution
+<!-- ---solution
 
 ```js
 let ovecka = 1
@@ -15,4 +15,4 @@ while (ovecka <= cilovyPocet) {
 	console.log('Proběhla ' + ovecka + '. ovečka')
 	ovecka = ovecka + 1
 }
-```
+``` -->

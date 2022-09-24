@@ -12,7 +12,7 @@ Proběhla 3. ovečka
 Proběhla 4. ovečka
 ```
 
----solution
+<!-- ---solution
 
 ```js
 let ovecka = 1
@@ -20,4 +20,4 @@ while (ovecka <= 4) {
 	console.log('Proběhla ' + ovecka + '. ovečka')
 	ovecka = ovecka + 1
 }
-```
+``` -->
