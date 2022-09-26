@@ -5,11 +5,11 @@ demand: 2
 
 Vytvořte proměnnou a přiřaďte do ní **číslo s desetinným rozvojem**. Dále vytvořte druhou proměnnou a **zaokrouhlete** do ní původní desetinné číslo. Obě hodnoty **vypište do konzole**.
 
-<!-- ---solution
+---solution
 
 ```js
 let pi = 3.14159265358979
 let poZaokrouhleni = Math.round(pi)
 console.log('Před zaokrouhlením: ' + pi)
 console.log('Po: ' + poZaokrouhleni)
-``` -->
+```
