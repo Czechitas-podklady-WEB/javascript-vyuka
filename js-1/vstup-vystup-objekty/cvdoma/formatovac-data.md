@@ -15,3 +15,20 @@ Vytvořte stránku, která se zeptá uživatele na den, měsíc a rok.
      <span class="day">28</span>.<span class="month">04</span>.<span class="year">2021</span>
    </p>
    ```
+
+---solution
+
+```js
+const den = prompt('Zadej den:')
+const mesic = prompt('Zadej měsíc:')
+const rok = prompt('Zadej rok:')
+
+document.body.innerHTML =
+	'<p class="date"><span class="day">' +
+	den +
+	'</span>.<span class="month">' +
+	mesic +
+	'</span>.<span class="year">' +
+	rok +
+	'</span></p>'
+```
