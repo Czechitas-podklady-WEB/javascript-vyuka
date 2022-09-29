@@ -62,10 +62,10 @@ const flight = {
 
 Proveďte následující:
 
-1. Vypište do stránky název startovní a cílové země.
-1. Pomocí destrukturování uložte do separátní proměnné objekt udávající maximální rozměry zavazadel.
-1. Z objektu s rozměry zavazadel vytáhněte maximální povolené rozměry příručního zavazadla a vypište tyto rozměry opět jeden po druhém vypište do stránky.
-1. Vypište do stránky, kolik cestující zaplatí za druhé zavazadlo v českých korunách zaokrouhleno nahoru na celé koruny.
+1. Vypište do stránky název **startovní** a **cílové země**.
+1. Pomocí **destrukturování** uložte do separátní proměnné objekt udávající **maximální rozměry zavazadel**.
+1. Z objektu s rozměry zavazadel vytáhněte maximální povolené **rozměry příručního zavazadla** a vypište tyto rozměry opět jeden po druhém vypište do stránky.
+1. Vypište do stránky, kolik cestující zaplatí za **druhé zavazadlo** v českých korunách **zaokrouhleno nahoru** na celé koruny.
 1. Pokud máte chuť, malinko stránku nastylujte, aby se uživatel v informacích vyznal.
 
 ---solution
@@ -128,19 +128,19 @@ document.body.innerHTML =
 	'<p><strong>Startovní země:</strong> ' + flight.countryFrom.name + '</p>'
 document.body.innerHTML +=
 	'<p><strong>Startovní země:</strong> ' + flight.countryTo.name + '</p>'
-const maximalniRozmeryZavazadel = flight.baglimit
+const { baglimit } = flight
 document.body.innerHTML +=
 	'<p><strong>Maximální šířka příručního zavazadla:</strong> ' +
-	maximalniRozmeryZavazadel.hand_width +
-	'cm</p>'
+	baglimit.hand_width +
+	' cm</p>'
 document.body.innerHTML +=
 	'<p><strong>Maximální výška příručního zavazadla:</strong> ' +
-	maximalniRozmeryZavazadel.hand_height +
-	'cm</p>'
+	baglimit.hand_height +
+	' cm</p>'
 document.body.innerHTML +=
 	'<p><strong>Maximální délka příručního zavazadla:</strong> ' +
-	maximalniRozmeryZavazadel.hand_length +
-	'cm</p>'
+	baglimit.hand_length +
+	' cm</p>'
 document.body.innerHTML +=
 	'<p><strong>Cena druhého zavazadla:</strong> ' +
 	Math.ceil(flight.bags_price[2] * flight.conversion.EUR) +
