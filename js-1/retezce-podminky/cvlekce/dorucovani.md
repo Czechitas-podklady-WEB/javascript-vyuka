@@ -14,3 +14,19 @@ Vytvořte webovou stránku, kde uživatel zadá svoji adresu například pro ú�
    </address>
    ```
 1. Pomocí `document.body.innerHTML` vložte sestavené HTML do stránky.
+
+---solution
+
+```js
+const street = prompt('Zadejte ulici:')
+const houseNumber = prompt('Zadejte číslo domu:')
+const city = prompt('Zadejte město:')
+const zipCode = prompt('Zadejte PSČ:')
+
+document.body.innerHTML = `
+   <address>
+      <p>${street} ${houseNumber}</p>
+      <p>${zipCode} ${city}</p>
+   </address>
+`
+```
