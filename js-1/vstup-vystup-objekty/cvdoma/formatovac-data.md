@@ -7,12 +7,12 @@ Vytvořte stránku, která se zeptá uživatele na den, měsíc a rok.
 
 1. Jakmile uživatel zadá patřičné údaje, vypište do stránky datum v tomto formátu.
    ```
-   28.04.2021
+   28. 4. 2021
    ```
 1. Vypisujte datum do webové stránky jako následující HTML kód.
    ```
    <p class="date">
-     <span class="day">28</span>.<span class="month">04</span>.<span class="year">2021</span>
+     <span class="day">28</span>. <span class="month">4</span>. <span class="year">2021</span>
    </p>
    ```
 
@@ -26,9 +26,9 @@ const rok = prompt('Zadej rok:')
 document.body.innerHTML =
 	'<p class="date"><span class="day">' +
 	den +
-	'</span>.<span class="month">' +
+	'</span>. <span class="month">' +
 	mesic +
-	'</span>.<span class="year">' +
+	'</span>. <span class="year">' +
 	rok +
 	'</span></p>'
 ```
