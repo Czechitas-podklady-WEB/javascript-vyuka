@@ -15,19 +15,19 @@ V **konzoli prohlížeče** si založte proměnnou `title` a uložte do ní **n�
 ```js
 const title = "Lord of the Rings"
 ​
-//Vypište do konzole počet znaků názvu.
+// Vypište do konzole počet znaků názvu.
 ​
 title.length
 ​
-//Převeďte název filmu na velká písmena.
+// Převeďte název filmu na velká písmena.
 ​
 title.toUpperCase()
 ​
-//Vyřízněte z názvu prvních pět písmen.
+// Vyřízněte z názvu prvních pět písmen.
 ​
 title.slice(0, 5)
 ​
-//Vyřízněte z názvu posledních pět písmen.
+// Vyřízněte z názvu posledních pět písmen.
 ​
 title.slice(title.length - 5, title.length)
 ```
