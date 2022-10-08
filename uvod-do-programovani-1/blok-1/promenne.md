@@ -1,8 +1,10 @@
 ## Proměnné
 
+<!-- prettier-ignore -->
 ```js
 let vek = 20
 let jmeno = 'Radek'
+let prijmeni = "Novák"
 let vyska = 1.75
 ```
 
