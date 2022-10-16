@@ -17,27 +17,26 @@ Na konci by stránka v prohlížeči měla vypadat jako na obrázku níže:
 
 ---solution
 
-```
-// 1
-const bodyElm = document.querySelector('body');
-bodyElm.style.backgroundColor = '#e9e9e9';
+```js
+// a.
+const bodyElm = document.querySelector('body')
+bodyElm.style.backgroundColor = '#e9e9e9'
 
-// 2
+// b.
+const newsElm = document.querySelector('.news')
+newsElm.style.backgroundColor = 'white'
+newsElm.style.maxWidth = '60rem'
 
-const newsElm = document.querySelector('.news');
-newsElm.style.backgroundColor = 'white';
-newsElm.style.maxWidth = '60rem';
+// c.
+const headingElm = document.querySelector('h1')
+headingElm.className = 'news__title'
+headingElm.textContent = 'Aktuální novinky'
 
-// 3
-const headingElm = document.querySelector('h1');
-headingElm.className = 'news__title';
-headingElm.textContent = 'Aktuální novinky';
+// d.
+const firstPostElm = document.getElementById('zprava1')
+firstPostElm.className = `${firstPostElm.className} post--main`
 
-// 4
-const firstPostElm = document.getElementById('zprava1');
-firstPostElm.className = `${firstPostElm.className} post--main`;
-
-//5
-const lastPostImgElm = document.querySelector('#zprava3 img');
-lastPostImgElm.src = 'img/zprava3-novy.jpg';
+// e.
+const lastPostImgElm = document.querySelector('#zprava3 img')
+lastPostImgElm.src = 'img/zprava3-novy.jpg'
 ```
