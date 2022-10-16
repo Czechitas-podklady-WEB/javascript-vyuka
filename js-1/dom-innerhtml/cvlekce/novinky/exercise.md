@@ -29,12 +29,12 @@ newsElm.style.maxWidth = '60rem'
 
 // c.
 const headingElm = document.querySelector('h1')
-headingElm.className = 'news__title'
+headingElm.classList.add('news__title')
 headingElm.textContent = 'Aktuální novinky'
 
 // d.
 const firstPostElm = document.getElementById('zprava1')
-firstPostElm.className = `${firstPostElm.className} post--main`
+firstPostElm.classList.add('post--main')
 
 // e.
 const lastPostImgElm = document.querySelector('#zprava3 img')
