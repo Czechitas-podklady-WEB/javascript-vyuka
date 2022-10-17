@@ -16,13 +16,13 @@ Na konci by stránka v prohlížeči měla vypadat jako na obrázku níže:
 
 ---solution
 
-```
-const firstCard = document.querySelector('#product1');
-firstCard.classList.add('border-primary');
+```js
+const firstCard = document.querySelector('#product1')
+firstCard.classList.add('border-primary')
 
-const secondCardButton = document.querySelector('#product2 button');
-secondCardButton.classList.remove('btn-primary');
+const secondCardButton = document.querySelector('#product2 button')
+secondCardButton.classList.remove('btn-primary')
 
-const thirdCardTitle = document.querySelector('#product3 .card-title');
-thirdCardTitle.classList.toggle('text-center');
+const thirdCardTitle = document.querySelector('#product3 .card-title')
+thirdCardTitle.classList.toggle('text-center')
 ```
