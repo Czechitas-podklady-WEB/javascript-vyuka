@@ -15,6 +15,8 @@ Vytvoříme jednoduchou stránku s objednávacím tlačítkem.
    ```
 1. Upravte program tak, že text se nevypíše do stránky, ale zobrazí se na samotném tlačítku.
 
+::fig[ukázka řešení]{src=assets/ukazka.gif}
+
 ---solution
 
 ```js
