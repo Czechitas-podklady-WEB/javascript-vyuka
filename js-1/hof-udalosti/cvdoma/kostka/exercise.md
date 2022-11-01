@@ -7,6 +7,8 @@ Naklonujte si [repozitář](https://github.com/Czechitas-podklady-WEB/kostka-zad
 
 **Nápověda:** Rozumným postupem je vytvořit si proměnnou `side`, která bude obsahovat číslo strany kostky. Tuto proměnnou můžete vždy při stisknutí klávesy navýšit o jedna a z této hodnoty zkonstruovat řetězec pro atribut `src`.
 
+::fig[ukázka řešení]{src=assets/ukazka.gif}
+
 ---solution
 
 ```js
