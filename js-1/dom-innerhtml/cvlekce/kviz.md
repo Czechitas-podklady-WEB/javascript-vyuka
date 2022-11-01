@@ -5,7 +5,7 @@ demand: 2
 
 Naklonujte si [repozitář](https://github.com/Czechitas-podklady-WEB/kviz-zadani) s kostrou stránky pro kvízové otázky. Napište JavaScriptový program, který vybere element s třídou `question` a nastaví jeho obsah na nějakou kvízovou otázku, například
 
-```
+```text
 Uveďte příjmení amerického vynálezce, který v roce 1876 jako první úspěšně podal patent na zařízení, které je dnes považováno za první telefon.
 ```
 
