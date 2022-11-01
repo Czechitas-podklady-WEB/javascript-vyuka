@@ -13,7 +13,7 @@ Příklad samostatného použití jednotlivých funkcí:
 ```
 
 ```jscon
-> weakPassword(8)
+> mediumPassword(8)
 '48140525'
 ```
 
