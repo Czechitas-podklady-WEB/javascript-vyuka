@@ -12,7 +12,7 @@ Naklonujte si [repozitář](https://github.com/Czechitas-podklady-WEB/minutka-za
 
 ::fig[ukázka řešení]{src=assets/ukazka.gif}
 
----solution
+<!-- ---solution
 
 ```html
 <button>Stop</button>
@@ -31,4 +31,4 @@ const odpocet = setTimeout(zazvon, pocetSekund * 1000)
 tlacitko.addEventListener('click', () => {
 	clearTimeout(odpocet)
 })
-```
+``` -->
