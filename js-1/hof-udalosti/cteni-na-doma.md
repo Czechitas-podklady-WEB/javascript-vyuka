@@ -1,5 +1,39 @@
 ## Povinné čtení na doma
 
+### Interval
+
+Pro pouštění jedné funkce opakovaně slouží zabudovaná funkce `setInterval`. Na rozdíl od nám už známého `setTimeout`, který po uplynutí doby pustí funkci jednou, třeba po pěti sekundách a dost, `setInterval` bude pouštět funkci opakovaně. Za pět sekund, deset sekund, patnáct sekund, … Zápisy pro jednorázový i opakovaný časovač jsou velmi podobné.
+
+```js
+const once = () => {
+	document.body.innerHTML +=
+		'<p>Tento text se přidal do stránky po pěti sekundách od načtení stránky.</p>'
+}
+
+setTimeout(once, 5000)
+
+const everyThreeSeconds = () => {
+	document.body.innerHTML +=
+		'<p>Tento text se přidává opakovaně každé tři sekundy.</p>'
+}
+
+setInterval(everyThreeSeconds, 3000)
+```
+
+Pokud bychom chtěli počítat, kolikrát interval již proběhl, udělali bychom to například takto:
+
+```js
+let counter = 0
+const everyThreeSeconds = () => {
+	counter = counter + 1
+	document.body.innerHTML += `<p>${counter}. Tento text se přidává opakovaně každé tři sekundy.</p>`
+}
+
+setInterval(everyThreeSeconds, 3000)
+```
+
+::fig[ukázka intervalu]{src=assets/interval.gif}
+
 ### Rušení časovačů
 
 Pokud spustíme nějaký časovač, často jej také chceme po určité době zrušit. Vyrobme například časovač, který každé 3 vteřiny řekne 'ahoj'.
