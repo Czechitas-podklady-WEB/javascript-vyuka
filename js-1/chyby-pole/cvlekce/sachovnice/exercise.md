@@ -29,7 +29,7 @@ Založte JavaScriptový program a vytvořte v něm pole pojmenované `sachovnice
 1. Šachovnici reprezentujte jako pole polí, kde každý řádek šachovnice je reprezentován jako jedno pole. Políčka reprerezentujte jako čísla dle následujícího klíče. Pro prázdné políčko použijte číselnou hodnotu `0`.
    ::fig[Figury]{src=assets/figury.png}
 1. Ověřte, že vaše pole má správnou podobu zavoláním funkce `zobraz(sachovnice)`.
-1. Otevřete tento program v konzoli a napište příkaz, který přesune bílého koně z pozice `f3` na pozici `e5`, kde sebere černého pěšce. Výsledkem by mělo být upravené pole obsahující nové pozice figurek.
+1. Pokračujte v kódu programu. Napište příkazy pro přesun bílého koně z pozice `f3` na pozici `e5`, kde sebere černého pěšce. Výsledkem by mělo být upravené pole obsahující nové pozice figurek.
    ::fig[Výsledek]{src=assets/vysledek.png}
 1. Opět ověřte, že vaše pole má správnou podobu zavoláním funkce `zobraz(sachovnice)`.
 
