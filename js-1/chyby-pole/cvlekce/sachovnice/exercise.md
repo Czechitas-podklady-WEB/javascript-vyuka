@@ -60,7 +60,10 @@ zobraz(sachovnice)
 ---solution
 
 ```js
-// sachovnice
+const zobraz = (data) => {
+	// …
+}
+
 const sachovnice = [
 	[0, 0, 0, 0, 0, -4, -6, 0],
 	[0, 0, 0, 0, 0, -1, -1, -1],
@@ -71,7 +74,11 @@ const sachovnice = [
 	[0, 0, 0, 0, 2, 1, 1, 0],
 	[0, 0, 0, 0, 0, 0, 6, 0],
 ]
-// Otevřete tento program v konzoli a napište příkaz, který přesune bílého koně z pozice f3 na pozici e5, kde sebere černého pěšce. Výsledkem by mělo být upravené pole obsahující nové pozice figurek.
+
+zobraz(sachovnice)
+
 sachovnice[3][4] = 3
 sachovnice[5][5] = 0
+
+zobraz(sachovnice)
 ```
