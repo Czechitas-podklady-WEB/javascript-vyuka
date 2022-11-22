@@ -5,8 +5,8 @@ demand: 2
 
 Založte JavaScriptový program s následujícím seznamem uživatelů.
 
-```
-const users = ['paja', 'kaja', 'vlasta', 'peta', 'alex', 'ja', 'misa'];
+```js
+const users = ['paja', 'kaja', 'vlasta', 'peta', 'alex', 'ja', 'misa']
 ```
 
 1. Pomocí cyklu FOR vypište všechna tato jména do konzole.
