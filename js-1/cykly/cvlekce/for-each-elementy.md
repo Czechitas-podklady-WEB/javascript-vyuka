@@ -8,9 +8,9 @@ Založte JavaScriptový program se stránkou a pěti odstavci `<p>`. Pomocí `do
 ---solution
 
 1. ```js
-   const paragraphs = document.querySelectorAll('p');
+   const paragraphs = document.querySelectorAll('p')
 
    paragraphs.forEach((paragraph) => {
-     paragraph.style.color = 'red';
+   	paragraph.style.color = 'red'
    })
    ```

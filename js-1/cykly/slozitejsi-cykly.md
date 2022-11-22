@@ -1,6 +1,5 @@
 ## Složitější cykly
 
-
 ### document.querySelectorAll
 
 Díky tomu, že už rozumíme polím, si můžeme představit funkci `document.querySelectorAll`. Ta funguje podobně jako už známá funkce `document.querySelector`. Vrátí nám však **všechny** elementy, které najde pomocí zadaného selektoru. Výsledek obdržíme jako pole DOM elementů. To pak můžeme zpracovat pomocí nějakého cyklu.
@@ -19,26 +18,26 @@ Náš výsledný učesaný JavaScriptový kód vypadal takto.
 
 ```js
 const selectSmiley = (event) => {
-  event.target.classList.add('btn-smiley--selected');
-};
+	event.target.classList.add('btn-smiley--selected')
+}
 
-document.querySelector('#btn1').addEventListener('click', selectSmiley);
-document.querySelector('#btn2').addEventListener('click', selectSmiley);
-document.querySelector('#btn3').addEventListener('click', selectSmiley);
-document.querySelector('#btn4').addEventListener('click', selectSmiley);
-document.querySelector('#btn5').addEventListener('click', selectSmiley);
+document.querySelector('#btn1').addEventListener('click', selectSmiley)
+document.querySelector('#btn2').addEventListener('click', selectSmiley)
+document.querySelector('#btn3').addEventListener('click', selectSmiley)
+document.querySelector('#btn4').addEventListener('click', selectSmiley)
+document.querySelector('#btn5').addEventListener('click', selectSmiley)
 ```
 
 Všimněte si, že kód pro nasazení posluchače na událost `click` jsme museli opakovat pětkrát. Díky `document.querySelectorAll` můžeme nyní posluchače nasadit na všechna tlačítka jedním cyklem.
 
 ```js
 const selectSmiley = (event) => {
-  event.target.classList.add('btn-smiley--selected');
-};
+	event.target.classList.add('btn-smiley--selected')
+}
 
-const buttons = document.querySelectorAll('.btn-smiley');
+const buttons = document.querySelectorAll('.btn-smiley')
 for (let i = 0; i < buttons.length; i += 1) {
-  buttons[i].addEventListener('click', selectSmiley);
+	buttons[i].addEventListener('click', selectSmiley)
 }
 ```
 
@@ -47,18 +46,11 @@ for (let i = 0; i < buttons.length; i += 1) {
 Cyklus `for` je univerzální díky tomu, jakými různými způsoby ho můžeme zapsat. Od velikosti kroku iterace po ukončovací podmínku. Tím umíme pokrýt širokou škálu situací a to ho dělá velmi mocným. Pro běžnou práci s poli však takový zápis může být zbytečně dlouhý a repetetivní. Pojďme se podívat na cyklus `forEach`, který je ideální pro práci s polem prvků.
 
 ```js
-const names = [
-  'petr',
-  'pavel',
-  'jana',
-  'eva',
-  'jan',
-  'veronika',
-];
+const names = ['petr', 'pavel', 'jana', 'eva', 'jan', 'veronika']
 
 names.forEach((name) => {
-  console.log(name)
-});
+	console.log(name)
+})
 ```
 
 Metoda `forEach` se volá přímo na poli, na kterém chceme pro každý prvek něco provést. Jako svůj parametr obdrží funkci a tato funkce se pak spustí na každém prvku pole.
@@ -67,15 +59,14 @@ Ukázka s `document.querySelectorAll` z příkladu výše.
 
 ```js
 const selectSmiley = (event) => {
-  event.target.classList.add('btn-smiley--selected');
-};
+	event.target.classList.add('btn-smiley--selected')
+}
 
-const buttons = document.querySelectorAll('.btn-smiley');
+const buttons = document.querySelectorAll('.btn-smiley')
 buttons.forEach((button) => {
-  button.addEventListener('click', selectSmiley)
-});
+	button.addEventListener('click', selectSmiley)
+})
 ```
-
 
 <!-- ### Datové atributy
 
