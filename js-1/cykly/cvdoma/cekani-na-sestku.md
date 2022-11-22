@@ -13,16 +13,16 @@ Založte JavaScriptový program a splňte následující úkoly.
 
 ```js
 const roll = () => {
-	return Math.ceil(Math.random() * 6)
-}
+  return Math.ceil(Math.random() * 6);
+};
 
-let counter = 1
-let rolledNumber = roll()
+let counter = 1;
+let rolledNumber = roll();
 while (rolledNumber !== 6) {
-	console.log(`Hodilo se cislo ${rolledNumber}`)
-	rolledNumber = roll()
-	counter += 1
+  console.log(`Hodilo se cislo ${rolledNumber}`);
+  rolledNumber = roll();
+  counter += 1;
 }
 
-console.log(`Šestka se hodila na ${counter}. pokus`)
+console.log(`Šestka se hodila na ${counter}. pokus`);
 ```

@@ -10,8 +10,8 @@ Vaším úkolem je napsat funkci, která dělá takzvaný skalární součin dvo
 Mějme například tato dvě pole.
 
 ```js
-const arr1 = [2, -1, 0, 3]
-const arr2 = [3, 2, 8, 1]
+const arr1 = [2, -1, 0, 3];
+const arr2 = [3, 2, 8, 1];
 ```
 
 Jejich skalární součin bychom ručně spočetli takto:
