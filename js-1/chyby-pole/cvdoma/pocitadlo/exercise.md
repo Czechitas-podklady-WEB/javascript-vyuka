@@ -7,3 +7,7 @@ Stáhněte si [webovou stránku](https://github.com/Czechitas-podklady-WEB/Cvice
 
 1. Bez použítí `console.log` opravte všechny chyby, které runtime vypisuje do konzole.
 1. Když vyřešíte všechna chybová hlášení, program stejně nebude fungovat. Použije tedy své detektivní schopnosti spolu s funkcí `console.log` a odhalte poslední problémy, které brání programu ve správném fungování.
+
+---solution
+
+[index.js](https://github.com/Czechitas-podklady-WEB/Cviceni-Pocitadlo/blob/reseni/index.js)
