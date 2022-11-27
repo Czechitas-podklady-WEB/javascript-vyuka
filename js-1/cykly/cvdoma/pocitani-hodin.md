@@ -7,7 +7,7 @@ Napište cyklus **WHILE**, který do konzole postupně vypíše všechny časov�
 
 **Ukázka výstupu:**
 
-```
+```text
 0:00
 0:01
 0:02
