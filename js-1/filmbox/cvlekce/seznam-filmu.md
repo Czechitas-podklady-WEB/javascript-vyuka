@@ -33,3 +33,7 @@ Na stránce se seznamem filmů vypište karty se všemi filmy z pole `filmy`.
     ```
 
 1.  Vzhledem k tomu, že `script.js` se používá i na podstránkách bez seznamu filmů, bez prvku `#seznam-filmu`, může se stát, že váš kód bude zobrazovat chybu ve vývojářských nástrojích například na detailu `film.html`. Obalte váš kód tedy podmínkou, ať se pouští pouze v případě, že se v HTML aktuální stránky `#seznam-filmu` nachází.
+
+#### Bonus
+
+Přidejte do pole s filmy nějaký další dle vlastního výběru.
