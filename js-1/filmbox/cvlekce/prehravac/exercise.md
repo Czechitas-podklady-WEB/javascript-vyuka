@@ -52,6 +52,8 @@ Skryjte ovládací panel, pokud uživatel po dobu tří sekund nepohnul myší a
 
 Ovládací panel skryjete přidáním třídy `hidden` na prvek se třídou `player-controls`.
 
+::fig[řešení]{src=assets/reseni.gif}
+
 ---solution
 
 Všechny úlohy mají jedno společné vypracované řešení zde [github.com/Czechitas-podklady-WEB/FilmBox/tree/reseni](https://github.com/Czechitas-podklady-WEB/FilmBox/tree/reseni).
