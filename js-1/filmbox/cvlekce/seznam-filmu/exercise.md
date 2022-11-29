@@ -7,7 +7,7 @@ Na stránce se seznamem filmů vypište karty se všemi filmy z pole `filmy`.
 
 1.  Přejděte v prohlížeči na stránku se seznamem.
 
-1.  Ve `script.js` vyhledejte prvek s id `seznam-filmu`.
+1.  Ve `script.js` pomocí `document.querySelector` vyhledejte prvek s id `seznam-filmu`.
 
 1.  Vymažte tomuto prvku jeho vnitřní HTML, aby byl prázdný.
 
