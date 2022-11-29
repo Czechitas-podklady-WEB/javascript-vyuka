@@ -33,6 +33,8 @@ Při přejíždění myší přes hvězdičky zvýrazněte všechny až po tu, n
 
    1. S událostí `mouseleave` zavolete vaši funkci s poznamenanou hodnotou.
 
+::fig[řešení]{src=assets/reseni.gif}
+
 ---solution
 
 Všechny úlohy mají jedno společné vypracované řešení zde [github.com/Czechitas-podklady-WEB/FilmBox/tree/reseni](https://github.com/Czechitas-podklady-WEB/FilmBox/tree/reseni).
