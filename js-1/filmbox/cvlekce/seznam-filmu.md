@@ -37,3 +37,7 @@ Na stránce se seznamem filmů vypište karty se všemi filmy z pole `filmy`.
 #### Bonus
 
 Přidejte do pole s filmy nějaký další dle vlastního výběru.
+
+---solution
+
+Všechny úlohy mají jedno společné vypracované řešení zde [github.com/Czechitas-podklady-WEB/FilmBox/tree/reseni](https://github.com/Czechitas-podklady-WEB/FilmBox/tree/reseni).

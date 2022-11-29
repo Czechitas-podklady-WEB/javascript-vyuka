@@ -19,3 +19,7 @@ Zobrazte příslušné informace od filmu na stránce s detailem.
 1. Cyklem prohledejte pole `filmy` a film se stejným id si poznamenejte do proměnné.
 
 1. Vepište informace (název, popis, plakát) o nalezeném filmu do stránky. Upravte textový obsah a atributy příslušných potomků prvku `#detail-filmu`. Do `.card-text` vepište dlouhý popis filmu.
+
+---solution
+
+Všechny úlohy mají jedno společné vypracované řešení zde [github.com/Czechitas-podklady-WEB/FilmBox/tree/reseni](https://github.com/Czechitas-podklady-WEB/FilmBox/tree/reseni).

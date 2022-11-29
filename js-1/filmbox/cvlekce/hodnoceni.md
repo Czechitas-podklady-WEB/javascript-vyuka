@@ -32,3 +32,7 @@ Při přejíždění myší přes hvězdičky zvýrazněte všechny až po tu, n
    1. Kdykoliv uživatel na nějakou hvězdičku klikne, poznamenejte si bokem, kolikátá to byla.
 
    1. S událostí `mouseleave` zavolete vaši funkci s poznamenanou hodnotou.
+
+---solution
+
+Všechny úlohy mají jedno společné vypracované řešení zde [github.com/Czechitas-podklady-WEB/FilmBox/tree/reseni](https://github.com/Czechitas-podklady-WEB/FilmBox/tree/reseni).

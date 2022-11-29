@@ -20,3 +20,7 @@ Umožněte uživateli vyplněním formuláře přidat k filmu vlastní poznámku
 Pokud vyživatel něco ve formuláři vynechal, pomožte mu zaměřením příslušného formulářového prvku.
 
 1. V místech, kde přidáváte třídu `is-invalid`, volejte také na formulářovém prvku metodu `.focus()`. Ta například u textového pole přenese kurzor pro psaní rovnou na správné místo, aby uživatel mohl začít psát z klávesnice.
+
+---solution
+
+Všechny úlohy mají jedno společné vypracované řešení zde [github.com/Czechitas-podklady-WEB/FilmBox/tree/reseni](https://github.com/Czechitas-podklady-WEB/FilmBox/tree/reseni).

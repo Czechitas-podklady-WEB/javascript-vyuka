@@ -19,3 +19,7 @@ Změňte ikonku tlačítka na křížek, pokud je menu rozbalené a na hamburger
 
 - HTML ikonky křížku: `<i class="fas fa-xmark"></i>`
 - HTML ikonky hamburgeru: `<i class="fas fa-bars"></i>`
+
+---solution
+
+Všechny úlohy mají jedno společné vypracované řešení zde [github.com/Czechitas-podklady-WEB/FilmBox/tree/reseni](https://github.com/Czechitas-podklady-WEB/FilmBox/tree/reseni).

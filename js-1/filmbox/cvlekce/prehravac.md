@@ -51,3 +51,7 @@ Obohaťte video přehrávač vlastními ovládacími prvky.
 Skryjte ovládací panel, pokud uživatel po dobu tří sekund nepohnul myší ani nestiskl žádnou klávesu.
 
 Ovládací panel skryjete přidáním třídy `hidden` na prvek se třídou `player-controls`.
+
+---solution
+
+Všechny úlohy mají jedno společné vypracované řešení zde [github.com/Czechitas-podklady-WEB/FilmBox/tree/reseni](https://github.com/Czechitas-podklady-WEB/FilmBox/tree/reseni).
