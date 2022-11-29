@@ -3,7 +3,7 @@ title: Založení projektu
 demand: 2
 ---
 
-Nejprve pro naši aplikace založíme projekt.
+Nejprve pro naši aplikaci založte projekt z předpřipraveného základu.
 
 1. Stáhněte si kód z adresy [github.com/Czechitas-podklady-WEB/FilmBox](https://github.com/Czechitas-podklady-WEB/FilmBox/archive/refs/heads/main.zip).
 
