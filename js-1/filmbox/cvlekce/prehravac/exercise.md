@@ -5,7 +5,7 @@ demand: 4
 
 Obohaťte video přehrávač vlastními ovládacími prvky.
 
-1. V souboru `film.html` u prvku `<video>` umažte ručně atribut `controls`. Skyjí se tím ovládací prvky předchystané přímo prohlížeče. V CSS je pak předchystaný kód, který automaticky zobrazí `<div class="player-controls">` s vlastním vizuálem. Vy v CSS nemusíte nic měnit. Jen si všimněte, že se na stránce objevily jiné ovládací prvky, které ale nereagují na klikání.
+1. V souboru `film.html` u prvku `<video>` umažte ručně atribut `controls`. Skryjí se tím ovládací prvky předchystané přímo prohlížečem. V CSS je pak už hotový kód, který automaticky zobrazí `<div class="player-controls">` s vlastním vizuálem. Vy v CSS nemusíte nic měnit. Jen si všimněte, že se na stránce objevily jiné ovládací prvky, které ale nereagují na klikání.
 
 1. Oživte tlačítko pro přehrávání a pozastavení.
 
@@ -31,7 +31,7 @@ Obohaťte video přehrávač vlastními ovládacími prvky.
 
 #### Bonus
 
-1. Spusťte/pozastavte přehrávání, pokud uživatel na stránce zmáčkne klávesu mezerní.
+1. Spusťte/pozastavte přehrávání, pokud uživatel na stránce zmáčkne klávesu mezerník.
 
 1. Všimněte si, že video se pozastavuje a přehrává, když uživatel píše do formuláře pro poznámku text a dělá u toho mezery. Spusťte/pozastavte přehrávání pouze v případě, že uživatel nebyl ve formuláři, když mačkal mezerník.
 
@@ -48,9 +48,7 @@ Obohaťte video přehrávač vlastními ovládacími prvky.
 
 #### Extra bonus
 
-Skryjte ovládací panel, pokud uživatel po dobu tří sekund nepohnul myší ani nestiskl žádnou klávesu.
-
-Ovládací panel skryjete přidáním třídy `hidden` na prvek se třídou `player-controls`.
+Skryjte ovládací panel, pokud uživatel po dobu **tří sekund** nepohnul myší ani nestiskl žádnou klávesu. **Využijte časovač**. S každým pohnutím nebo stiskem ho zrušte a nastavte znovu na tři sekundy. Po uplynutí přidejte prvku `.player-controls` třídu `hidden`. Pro opětovné zobrazení (s každým pohybem, stiskem) třídu `hidden` zase odeberte, aby se ovládání zpět objevilo.
 
 ::fig[řešení]{src=assets/reseni.gif}
 

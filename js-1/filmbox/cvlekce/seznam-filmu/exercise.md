@@ -11,7 +11,7 @@ Na stránce se seznamem filmů vypište karty se všemi filmy z pole `filmy`.
 
 1.  Vymažte tomuto prvku jeho vnitřní HTML, aby byl prázdný.
 
-1.  Pomocí cyklu projděte všechny filmy z předpřipraveného pole a pro každý přidejte do prvku `seznam-filmu` následující HTML doplněné o patřičné informace (název, ochutnávku, plakát).
+1.  Pomocí cyklu projděte všechny filmy z předpřipraveného pole a pro každý přidejte do prvku `#seznam-filmu` následující HTML doplněné o patřičné informace (název, ochutnávku, plakát).
 
     ```html
     <div class="col">

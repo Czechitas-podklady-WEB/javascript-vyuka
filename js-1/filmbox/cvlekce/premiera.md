@@ -5,8 +5,6 @@ demand: 3
 
 Zobrazte datum premiéry filmu.
 
-a počet dní od premiéry.
-
 1. Zapojte do stránky `film.html` knihovnu dayjs přidáním HTML do hlavičky.
 
    ```html
@@ -15,7 +13,7 @@ a počet dní od premiéry.
 
 1. Do prvku s id `premiera` vepište HTML `Premiéra <strong>29. 11. 2022</strong>`, kde datum nahraďte datumem premiéry filmu naformátovaným pomocí `dayjs` a metody `.format()`.
 
-   1. Datum v dayjs vytvoříte například voláním `dayjs('2022-12-24')`. Vánoce nahraďte textovým datumem premiéry filmu.
+   1. Datum v dayjs vytvoříte například voláním `dayjs('2022-12-24')`. Vánoce nahraďte datumem premiéry filmu.
 
    1. Hezké datum z dayjs vytvoříte voláním `dayjs('2022-12-24').format('D. M. YYYY')`.
 

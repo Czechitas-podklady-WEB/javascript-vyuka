@@ -3,7 +3,7 @@ title: 'Bonus: Detail filmu'
 demand: 4
 ---
 
-Zobrazte příslušné informace od filmu na stránce s detailem.
+Zobrazte příslušné informace o filmu na stránce s detailem.
 
 1. Protože stránka `film.html` obsluhuje datail všech filmů, budete si muset přes adresu předat informací, který konkrétní film si uživatel právě prohlíží. V HTML z předchozího úkolu přidejte do odkazu `href` za znak mřížky (`#`) ještě unikátní identifikátor (`id`), který má každý film vlastní. HTML by pak mělo vypadat zhruba takto:
 
