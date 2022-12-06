@@ -10,13 +10,13 @@ Dejme tomu, že bychom chtěli prostřední třídu odstranit a tím tlačítko 
 
 ```js
 const btnElm = document.querySelector('#login-btn')
-btnElm.classList.remove('btn--off');
+btnElm.classList.remove('btn--off')
 ```
 
 Pokud chceme tlačítko vrátit do stavu vypnuto, můžeme třídu opět přidat.
 
 ```js
-btnElm.classList.add('btn--off');
+btnElm.classList.add('btn--off')
 ```
 
 Naše tlačítko funguje jako přepínač. Chceme, aby například na kliknutí přepnulo stav z 'vypnuto' na 'zapnuto' a obráceně. To v řeči programátorské znamená: když element obsahuje třídu `btn--off` tak ji odstraň, v opačném případě ji přidej. Takový kód můžeme napsat pomocí metody `contains`.
@@ -24,9 +24,9 @@ Naše tlačítko funguje jako přepínač. Chceme, aby například na kliknutí 
 ```js
 const btnElm = document.querySelector('#login-btn')
 if (btnElm.classList.contains('btn--off')) {
-	btnElm.classList.remove('btn--off');
+	btnElm.classList.remove('btn--off')
 } else {
-	btnElm.classList.add('btn--off');
+	btnElm.classList.add('btn--off')
 }
 ```
 
@@ -34,7 +34,7 @@ Přepínání tříd je však tak častá situace, že `classList` má přímo n
 
 ```js
 const btnElm = document.querySelector('#login-btn')
-btnElm.classList.toggle('btn--off');
+btnElm.classList.toggle('btn--off')
 ```
 
 Pokud se daná CSS třída na elementu nachází, metoda `toggle` ji odstraní. Pokud tam naopak není, metoda `toggle` ji přidá.
