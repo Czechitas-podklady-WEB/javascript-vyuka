@@ -1,5 +1,7 @@
 ## Bonus: Zanořené podmínky
 
+Všimněte si na kódu níže, že podmínky do sebe můžeme i zanořovat a skládat tak komplexenější větvení kódu.
+
 ### Počasí
 
 ```js
