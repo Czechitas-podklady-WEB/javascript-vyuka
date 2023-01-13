@@ -14,7 +14,7 @@ Zabalte kód na doporučování aktivit do funkce.
    - `doporucAktivitu(-5)`
    - `doporucAktivitu(9)`
 
----solution
+<!-- ---solution
 
 ```js
 let doporucAktivitu = (predpoved) => {
@@ -43,4 +43,4 @@ doporucAktivitu(35)
 doporucAktivitu(17)
 doporucAktivitu(-5)
 doporucAktivitu(9)
-```
+``` -->
