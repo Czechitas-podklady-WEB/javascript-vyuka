@@ -1,4 +1,4 @@
 ## Cvičení
 
-::exc[cviceni>odpocet]
 ::exc[cviceni>ovecky]
+::exc[cviceni>odpocet]
