@@ -18,7 +18,9 @@ Jednodušší kód, kde má vyučující a poslední student menší šanci na z
 ```js
 let cisloZidle = Math.round(Math.random() * 100)
 
-console.log('Tabuli dnes umyje student nebo vyučující na židli číslo ' + cisloZidle)
+console.log(
+	'Tabuli dnes umyje student nebo vyučující na židli číslo ' + cisloZidle
+)
 ```
 
 #### Těžší varianta
@@ -28,5 +30,7 @@ Vyrovnaná šance pro všechny.
 ```js
 let cisloZidle = Math.round(Math.random() * 101 - 0.5)
 
-console.log('Tabuli dnes umyje student nebo vyučující na židli číslo ' + cisloZidle)
+console.log(
+	'Tabuli dnes umyje student nebo vyučující na židli číslo ' + cisloZidle
+)
 ```
