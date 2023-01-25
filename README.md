@@ -24,7 +24,7 @@ git push origin HEAD:deploy
 Spuštěním příkazu:
 
 ```sh
-docker-compose up
+npm start
 ```
 
 a otevřením [http://localhost:3000](http://localhost:3000) v prohlížeči.
