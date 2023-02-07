@@ -1,6 +1,8 @@
 # Javascript kurzy [![quality assurance](https://github.com/Czechitas-podklady-WEB/javascript-vyuka/actions/workflows/quality-assurance.yml/badge.svg)](https://github.com/Czechitas-podklady-WEB/javascript-vyuka/actions)
 
-Studijní materiály pro JavaScript na kodim.cz
+Studijní materiály pro JavaScript na [kodim.cz](https://kodim.cz/).
+
+> ❗ Složka js-1 je zde pouze z historických důvodů a jako doběh jarního kurzu 2023. Kopie a hlavní zdroj pravdy je přesunut do repozitáře pro digitální akademii.
 
 ## Formátování
 
