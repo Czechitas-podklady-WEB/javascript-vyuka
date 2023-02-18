@@ -10,7 +10,7 @@ if (vek < 18) {
 }
 ```
 
-Reaguje pouze, pokud podmínka `(vek < 18)` platí.
+Vykoná kód ve složených závorkách pouze v případě, že podmínka `(vek < 18)` platí.
 
 ### Varianta s `else`
 
