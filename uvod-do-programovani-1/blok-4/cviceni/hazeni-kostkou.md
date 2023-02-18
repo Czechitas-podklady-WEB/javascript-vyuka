@@ -3,7 +3,7 @@ title: Házení kostkou
 demand: 2
 ---
 
-Vytvořte program, který bude virtuálně házet kostkou, dokud mu nepadne 6. Každý hod vypíšte na obrazovku.
+Vytvořte program, který bude virtuálně házet kostkou, **dokud mu nepadne šestka**. Výsledek každého hodu vypíše **do konzole**.
 
 Výsledek by měl vypadat zhruba takto:
 
@@ -25,3 +25,5 @@ while (cisloNaKostce !== 6) {
 	console.log('Padlo číslo ' + cisloNaKostce)
 }
 ```
+
+<!-- Návrh na bonus: Na závěr ještě vypsat, kolik bylo hodů a správně ohnout slovo hodů. Byl potřeba 1 hod. Byly potřeba dva hody. Bylo potřeba pět hodů. -->
