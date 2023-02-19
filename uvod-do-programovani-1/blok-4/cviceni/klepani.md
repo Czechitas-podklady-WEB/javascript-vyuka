@@ -22,7 +22,7 @@ Knock
 Penny!
 ```
 
----solution
+<!-- ---solution
 
 ```js
 let pocetPenny = 0
@@ -37,4 +37,4 @@ while (pocetPenny < 3) {
 
 	pocetPenny = pocetPenny + 1
 }
-```
+``` -->

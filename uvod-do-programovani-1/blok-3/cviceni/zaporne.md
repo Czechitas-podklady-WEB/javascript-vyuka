@@ -9,7 +9,7 @@ demand: 2
 1. A pokud je hodnota této proměnné menší než nula, vypište „**Číslo je záporné**“.
 1. Program vyzkoušejte na různých hodnotách.
 
----solution
+<!-- ---solution
 
 ```js
 let cislo = Number(prompt('Zadej číslo:'))
@@ -23,4 +23,4 @@ if (cislo > 100) {
 if (cislo < 0) {
 	console.log('Číslo je záporné')
 }
-```
+``` -->
