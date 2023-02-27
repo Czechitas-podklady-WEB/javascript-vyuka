@@ -10,7 +10,7 @@ Vytvořte funkci, která bude vypisovat zajímavosti.
 1. Přidejte třetí zajímavost a rozšiřte podmínku tak, aby na třetí zajímavost také mohla někdy vyjít řada.
 1. Funkci si zkuste párkrát zavolat.
 
-<!-- ---solution
+---solution
 
 ```js
 let rekniZajimavost = () => {
@@ -30,4 +30,4 @@ rekniZajimavost()
 rekniZajimavost()
 rekniZajimavost()
 rekniZajimavost()
-``` -->
+```
