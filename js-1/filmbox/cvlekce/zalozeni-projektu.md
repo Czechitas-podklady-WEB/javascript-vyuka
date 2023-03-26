@@ -5,7 +5,7 @@ demand: 2
 
 Nejprve pro naši aplikaci založte projekt z předpřipraveného základu.
 
-1. Stáhněte si kód z adresy [github.com/Czechitas-podklady-WEB/FilmBox](https://github.com/Czechitas-podklady-WEB/FilmBox/archive/refs/heads/main.zip).
+1. Stáhněte si kód z adresy [github.com/Czechitas-podklady-WEB/projekt-FilmBox](https://github.com/Czechitas-podklady-WEB/projekt-FilmBox/archive/refs/heads/main.zip).
 
 1. Stažený soubor v _ZIPu_ rozbalte do složky, ve které běžně skladujete své projekty.
 

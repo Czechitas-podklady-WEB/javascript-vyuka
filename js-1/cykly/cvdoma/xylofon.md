@@ -3,8 +3,8 @@ title: Xylofon
 demand: 4
 ---
 
-Postupujte podle zadání v samostatném repozitáři [Cviceni-Xylofon](https://github.com/Czechitas-podklady-WEB/Cviceni-Xylofon).
+Postupujte podle zadání v samostatném repozitáři [cviceni-xylofon](https://github.com/Czechitas-podklady-WEB/cviceni-xylofon).
 
 ---solution
 
-[index.js](https://github.com/Czechitas-podklady-WEB/Cviceni-Xylofon/blob/reseni/index.js)
+[index.js](https://github.com/Czechitas-podklady-WEB/cviceni-xylofon/blob/reseni/index.js)

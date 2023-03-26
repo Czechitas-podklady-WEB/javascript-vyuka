@@ -3,7 +3,7 @@ title: Minutka
 demand: 2
 ---
 
-Naklonujte si [repozitář](https://github.com/Czechitas-podklady-WEB/minutka-zadani) pro stránku s kuchyňskou minutkou. Využijte funkci `setTimeout` ke splnění následujících úkolů.
+Naklonujte si repozitář [cviceni-minutka](https://github.com/Czechitas-podklady-WEB/cviceni-minutka) pro stránku s kuchyňskou minutkou. Využijte funkci `setTimeout` ke splnění následujících úkolů.
 
 1. Zařiďte, aby minutka začala zvonit za pět vteřin po otevření stránky. Zvonění zařídíte tak, že k elementu budíku přídáte CSS třídu `alarm--ring`.
 1. Nechte uživatele skrze `prompt` zadat kolik vteřin má uplynout než minutka začne zvonit.

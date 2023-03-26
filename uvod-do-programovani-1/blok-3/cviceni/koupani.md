@@ -22,4 +22,4 @@ console.log('O víkendu bude ' + predpoved + ' °C.')
 if (predpoved >= minimalniTeplotaNaKoupani) {
 	console.log('Ideální příležitost jít se vykoupat.')
 }
-``` 
+```

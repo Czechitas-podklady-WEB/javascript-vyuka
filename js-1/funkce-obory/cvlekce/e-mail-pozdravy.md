@@ -3,7 +3,7 @@ title: E-mail, pozdravy
 demand: 1
 ---
 
-Naklonujte si [repozitář](https://github.com/Czechitas-podklady-WEB/email-zadani) se stránkou obsahující šablonu jednoduchého e-mailu. Všimněte si, že do stránky je vložený JavaScript bez atributu `type=module`. To nám umožní volat námi vytvořené funkce přímo z konzole. S tímto atributem by to nešlo.
+Naklonujte si repozitář [cviceni-email](https://github.com/Czechitas-podklady-WEB/cviceni-email) se stránkou obsahující šablonu jednoduchého e-mailu. Všimněte si, že do stránky je vložený JavaScript bez atributu `type=module`. To nám umožní volat námi vytvořené funkce přímo z konzole. S tímto atributem by to nešlo.
 
 Každý e-mail je třeba zakončit zdvořilým pozdravem.
 
