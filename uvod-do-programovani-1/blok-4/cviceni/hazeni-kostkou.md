@@ -16,7 +16,7 @@ Padlo číslo 1
 Padlo číslo 6
 ```
 
----solution
+<!-- ---solution
 
 ```js
 let cisloNaKostce = 0
@@ -24,6 +24,6 @@ while (cisloNaKostce !== 6) {
 	cisloNaKostce = Math.round(0.5 + Math.random() * 6)
 	console.log('Padlo číslo ' + cisloNaKostce)
 }
-```
+``` -->
 
 <!-- Návrh na bonus: Na závěr ještě vypsat, kolik bylo hodů a správně ohnout slovo hodů. Byl potřeba 1 hod. Byly potřeba dva hody. Bylo potřeba pět hodů. -->

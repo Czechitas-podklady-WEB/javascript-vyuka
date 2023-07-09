@@ -9,7 +9,7 @@ Ve třídě na vysoké škole je 100 studentů. Každý sedí na židli označen
 Tabuli dnes umyje student nebo vyučující na židli číslo X
 ```
 
----solution
+<!-- ---solution
 
 #### Základní varianta
 
@@ -33,4 +33,4 @@ let cisloZidle = Math.round(Math.random() * 101 - 0.5)
 console.log(
 	'Tabuli dnes umyje student nebo vyučující na židli číslo ' + cisloZidle
 )
-```
+``` -->
