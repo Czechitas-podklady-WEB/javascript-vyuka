@@ -21,3 +21,5 @@ if (confirm('Spustit smyčku?')) {
 	}
 }
 ```
+
+::fig[volání confirm]{src=assets/confirm.png}
