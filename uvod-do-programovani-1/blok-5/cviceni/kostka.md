@@ -26,7 +26,7 @@ Pětka padla: 157
 Šestka padla: 171
 ```
 
-<!-- ---solution
+---solution
 
 ```js
 let jednicka = 0
@@ -71,4 +71,4 @@ console.log('Trojka padla: ' + trojka)
 console.log('Čtyřka padla: ' + ctyrka)
 console.log('Pětka padla: ' + petka)
 console.log('Šestka padla: ' + sestka)
-``` -->
+```
